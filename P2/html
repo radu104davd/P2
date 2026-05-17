@@ -81,10 +81,10 @@
         <h2>1. Secțiunea "Modul de implementare" (MI)</h2>
         
         <h3>1.1 Descrierea modului de implementare și decizii personale</h3>
-        <p>[Detaliază aici cum ai ales tu să rezolvi tema. De exemplu: "Deși tema cerea un sistem de alarmă general, am ales să implementez o alarmă cu senzori ultrasonici care măsoară distanța până la obiecte și avertizează sonor..."]</p>
+        <p>[Detaliază aici cum ai ales tu să rezolvi tema. De exemplu: "Deși tema cerea un sistem de alarmă general, am ales să implementez o alarmă cu senzori ultrasonici care măsoară distanța până la obiecte și avertizează sonor... WE ARE COOKED"]</p>
 
         <h3>1.2 Modul de funcționare și periferice I/O</h3>
-        <p>[Explică cum interacționează utilizatorul cu placa ta.]</p>
+        <p>[Explică cum interacționează utilizatorul cu placa ta]</p>
         <ul>
             <li><strong>Intrări (Taste/Butoane/Senzori):</strong> [Ex: Butonul PB0 pornește sistemul, senzorul de temperatură pe pinul PA1...]</li>
             <li><strong>Ieșiri (Afișaje/LED-uri):</strong> [Ex: LED-ul verde pe PD2 indică stare de veghe, ecranul LCD afișează valoarea...]</li>
