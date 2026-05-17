@@ -163,7 +163,7 @@
         <p>Fotografiile de mai jos demonstrează asamblarea manuală și progresivă a componentelor pe placa de proiect.</p>
         
         <div class="img-container">
-            <img src="placa_partial.jpeg" alt="Machetă în stadiu parțial de lipire" width="1024">
+            <img src="placa_partial.jpeg" alt="Machetă în stadiu parțial de lipire" width="300px">
             <div class="caption">Figura 2: Macheta hardware - stadiul inițial de lipire a componentelor</div>
         </div>
 
