@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal de Proiect - [Numele Tău]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h1 { color: #0056b3; margin-bottom: 5px; }
+        h2 { color: #2c3e50; border-left: 4px solid #0056b3; padding-left: 10px; margin-top: 30px; }
+        h3 { color: #34495e; }
+        .info-student { font-style: italic; color: #555; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th { background-color: #f2f2f2; }
+        
+        .img-container {
+            text-align: center;
+            margin: 20px 0;
+            background: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .caption {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+            font-style: italic;
+        }
+        blockquote {
+            background: #edf2f7;
+            border-left: 4px solid #4a5568;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+        }
+        .warning-box {
+            background-color: #fffaf0;
+            border-left: 4px solid #dd6b20;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jurnal de Proiect: [Titlul Temei Tale]</h1>
+        <p class="info-student">Student: [Numele Tău] | Grupa: [Grupa Ta] | Profesor coordonator: [Nume Profesor]</p>
+    </header>
+
+    <section id="mod-implementare">
+        <h2>1. Secțiunea "Modul de implementare" (MI)</h2>
+        
+        <h3>1.1 Descrierea modului de implementare și decizii personale</h3>
+        <p>[Detaliază aici cum ai ales tu să rezolvi tema. De exemplu: "Deși tema cerea un sistem de alarmă general, am ales să implementez o alarmă cu senzori ultrasonici care măsoară distanța până la obiecte și avertizează sonor..."]</p>
+
+        <h3>1.2 Modul de funcționare și periferice I/O</h3>
+        <p>[Explică cum interacționează utilizatorul cu placa ta.]</p>
+        <ul>
+            <li><strong>Intrări (Taste/Butoane/Senzori):</strong> [Ex: Butonul PB0 pornește sistemul, senzorul de temperatură pe pinul PA1...]</li>
+            <li><strong>Ieșiri (Afișaje/LED-uri):</strong> [Ex: LED-ul verde pe PD2 indică stare de veghe, ecranul LCD afișează valoarea...]</li>
+            <li><strong>Conectare PC/Periferice:</strong> [Ex: Placa se conectează la PC prin cablu USB-B pentru alimentare...]</li>
+        </ul>
+
+        <h3>1.3 Componente adiționale</h3>
+        <p>[Lista componentelor extra pe care le-ai adăugat tu față de kitul de bază.]</p>
+        <ul>
+            <li><strong>Senzor [Nume]:</strong> Parametri principali: [Ex: Tensiune 5V, curent 15mA]. Sursa de achiziție: [Ex: Optimus Digital / Adus de acasă].</li>
+        </ul>
+
+        <blockquote>
+            <strong>Jurnal de modificări (Istoric):</strong><br>
+            [Dacă pe parcurs schimbi ceva, NU șterge de mai sus. Completează aici, ex: "Data 20.05.2026: Am decis să înlocuiesc senzorul X cu senzorul Y deoarece..."]
+        </blockquote>
+
+        <h3>1.4 Logica de funcționare a sistemului</h3>
+        <p>[Explică în cuvinte algoritmul codului tău. Ex: La pornire, sistemul inițializează pinii. Intră într-o buclă infinită unde citește senzorul la fiecare 500ms. Dacă valoarea depășește pragul, se activează buzzerul...]</p>
+    </section>
+
+    <hr>
+
+    <section id="descriere-hardware">
+        <h2>2. Secțiunea "Descrierea hardware" (DH)</h2>
+        
+        <h3>2.1 Schema electrică completă</h3>
+        <p>Mai jos este prezentată schema electrică completă a machetei realizate, generată în programul CAD [Nume Program]. Schema conține exclusiv componentele prezente fizic pe placă.</p>
+        
+        <div class="img-container">
+            <img src="schema_electrica.png" alt="Schema electrică a proiectului" width="1024">
+            <div class="caption">Figura 1: Schema electrică completă a circuitului (proiectare proprie CAD)</div>
+        </div>
+
+        <h3>2.2 Lista completă de materiale (BOM - Bill of Materials)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nr. Crt.</th>
+                    <th>Denumire Componentă</th>
+                    <th>Valoare / Model</th>
+                    <th>Capsulă (Footprint)</th>
+                    <th>Furnizor</th>
+                    <th>Preț</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Microcontroller</td>
+                    <td>ATmega324PA</td>
+                    <td>DIP-40</td>
+                    <td>UPB</td>
+                    <td>- (Inclus)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rezistență</td>
+                    <td>10 kΩ</td>
+                    <td>Axial-0.25W</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>[Senzor Adăugat]</td>
+                    <td>[Model]</td>
+                    <td>[Footprint]</td>
+                    <td>[Furnizor]</td>
+                    <td>[Preț]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>2.3 Fotografii ale machetei (Evoluția asamblării)</h3>
+        <p>Fotografiile de mai jos demonstrează asamblarea manuală și progresivă a componentelor pe placa de proiect.</p>
+        
+        <div class="img-container">
+            <img src="placa_partial.jpg" alt="Machetă în stadiu parțial de lipire" width="1024">
+            <div class="caption">Figura 2: Macheta hardware - stadiul inițial de lipire a componentelor</div>
+        </div>
+
+        <div class="img-container">
+            <img src="placa_final.jpg" alt="Machetă complet lipită" width="1024">
+            <div class="caption">Figura 3: Macheta hardware finalizată - toate componentele lipite</div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="descriere-software">
+        <h2>3. Secțiunea "Descrierea software" (DS)</h2>
+        <p><em>Trebuie completată înainte de a 2-a verificare.</em></p>
+        
+        <h3>3.1 Structura logică și diagrame</h3>
+        <p>[Include aici explicații despre organizarea codului. Poți adăuga organigrame (flowcharts) sau grafuri de tranziție de stări dacă sistemul tău e implementat ca un Automat de Stări (FSM).]</p>
+        
+        <div class="img-container">
+            <img src="diagrama_software.png" alt="Diagrama de flux / Organigrama software" width="1024">
+            <div class="caption">Figura 4: Organigrama algoritmului de funcționare / Graful de tranziție al stărilor</div>
+        </div>
+
+        <h3>3.2 Documentarea resurselor hardware utilizate</h3>
+        <p>Pentru implementarea temei, au fost configurate și utilizate următoarele resurse interne ale procesorului AVR:</p>
+        <ul>
+            <li><strong>Porturi I/O:</strong> [Ex: Portul A configurat ca intrare pentru senzori, Portul B ca ieșire pentru LED-uri].</li>
+            <li><strong>Canale ADC:</strong> [Ex: Canalul PA0 utilizat pentru citirea senzorului analogic, tensiune de referință setată la AVCC (5V)].</li>
+            <li><strong>Timere:</strong> [Ex: Timer 1 configurat în mod Fast PWM pe 8 biți pentru controlul intensității, cu un prescaler de 64].</li>
+            <li><strong>Întreruperi:</strong> [Ex: Întreruperea externă INT0 activată pe front căzător pentru butonul de Panică].</li>
+        </ul>
+
+        <h3>3.3 Estimarea și analiza memoriei</h3>
+        
+        <h4>Estimare inițială (Teoretică):</h4>
+        <p>[Explică ce structuri mari ai anticipat. Ex: "Pentru afișarea caracterelor speciale pe LCD am definit un tabel LUT salvat în memoria Flash pentru a economisi memoria RAM. Am estimat un consum de aprox. 200 octeți pentru bufferul de text..."]</p>
+        <p><em>Justificare implementare pe microcontroler:</em> [Demonstrează că resursele interne sunt suficiente. Ex: Frecvența de eșantionare aleasă ne permite stocarea datelor direct în RAM-ul intern fără a fi nevoie de o memorie RAM externă sau de un ADC extern.]</p>
+
+        <h4>Consumul real (Raportat de compilator în etapa finală):</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tip Memorie</th>
+                    <th>Dimensiune Consumată</th>
+                    <th>Procent din Total Disponibil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Flash</strong> (Cod + Constante)</td>
+                    <td>[Ex: 4122 bytes]</td>
+                    <td>[Ex: 12.5%]</td>
+                </tr>
+                <tr>
+                    <td><strong>RAM</strong> (Variabile globale/statice)</td>
+                    <td>[Ex: 124 bytes]</td>
+                    <td>[Ex: 6.0%]</td>
+                </tr>
+                <tr>
+                    <td><strong>EEPROM</strong> (Dacă e utilizat)</td>
+                    <td>[Ex: 0 bytes]</td>
+                    <td>[Ex: 0%]</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="warning-box">
+            <strong>Notă securitate cod sursă:</strong> Conform cerințelor, codul sursă complet al proiectului (fișierele .c, .h, .hex) a fost încărcat securizat în directorul alocat pe serverul Linux și nu este publicat direct pe această pagină web.
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="rezultate-concluzii">
+        <h2>4. Secțiunea "Rezultate și concluzii"</h2>
+        
+        <h3>4.1 Respectarea cerințelor inițiale</h3>
+        <p>[Comentează aici în ce măsură ai realizat ce s-a cerut inițial. Menționează eventualele modificări de plan și argumentează-le. Notează succesele, dar mai ales insuccesele tehnice de pe parcurs și cum le-ai depășit.]</p>
+
+        <h3>4.2 Măsurători și evaluări de performanță</h3>
+        <p>[Adaugă date numerice concrete sau rezultate obținute în urma testelor. Ex: Timpul de răspuns al sistemului la detectarea obstacolului este de sub 50ms, eroarea de citire a senzorului de temperatură este de maxim ±0.5°C.]</p>
+
+        <h3>4.3 Soluții inginerești adoptate și optimizări (Concluzii Tehnice)</h3>
+        <p>Pe parcursul dezvoltării proiectului, au fost luate următoarele decizii tehnice pentru optimizarea sistemului:</p>
+        <ul>
+            <li><strong>Optimizarea codului:</strong> [Ex: Înlocuirea operațiilor cu numere în virgulă mobilă (float) cu operații pe întregi pentru reducerea timpului de execuție și a spațiului Flash ocupat.]</li>
+            <li><strong>Gestiunea resurselor:</strong> [Ex: Alegerea unei rezoluții de 8 biți pentru ADC în detrimentul celei de 10 biți, considerând-o suficientă pentru pragurile impuse, reducând astfel timpul de conversie].</li>
+            <li><strong>Compatibilitate hardware (3.3V vs 5V):</strong> [Ex: Adaptarea nivelurilor logice prin utilizarea unui divizor rezistiv pentru interfațarea senzorului care rulează la 3.3V cu pinii microcontrolerului ce funcționează la 5V].</li>
+            <li><strong>Consum de curent:</strong> [Ex: Implementarea modului Sleep (Idle) în momentele de inactivitate, scăzând consumul total al machetei de la 45mA la 12mA].</li>
+        </ul>
+
+        <h3>4.4 Sugestii de îmbunătățire viitoare</h3>
+        <p>[Cum s-ar fi putut rezolva problema mai eficient în alt mod decât cel ales? Ex: Pentru o eficiență energetică și mai bună, pe viitor s-ar putea utiliza întreruperi dedicate pin-change în locul interogării ciclice (polling) a senzorilor.]</p>
+    </section>
+
+</body>
+</html>
