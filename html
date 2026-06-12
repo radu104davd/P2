@@ -127,49 +127,68 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Microcontroller</td>
-                    <td>STM32F103C8T6</td>
-                    <td>Procesează semnalul primit de la microfon prin intermediul convertorului analog-digital (ADC) intern și controlează dinamic pinii de ieșire pentru LED-uri.</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Microfon</td>
-                    <td>Hama MIC-P35 Allround</td>
-                    <td>Capsulă de tip electret cu sensibilitate ridicată, responsabilă de preluarea undelor sonore și transformarea lor în semnale electrice de mică amplitudinex</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Breakout CJMCU-TRRS</td>
-                    <td>[Model]</td>
-                    <td>Modul de conexiune mecanică și electrică ce permite cuplarea fermă și curată a mufei Jack de 3.5mm a microfonului pe breadboard.</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Circuit de Alimentare Microfon (Bias)</td>
-                    <td>[Model]</td>
-                    <td>O rezistență de 4.7K conectată la linia de 3.3V, esențială pentru a polariza și alimenta corect capsula internă a microfonului electret.</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Condensator de Decuplare (Curent Alternativ)</td>
-                    <td>[Model]</td>
-                    <td>Un condensator electrolitic conectat în serie, care blochează componenta de curent continuu (DC) și lasă doar semnalul audio pur (AC) să treacă spre microcontroler.</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Divizor de Tensiune (BIAS Audio)</td>
-                    <td>[Model]</td>
-                    <td>Două rezistențe egale de 10K conectate în configurație de divizor între 3.3V și GND. Acestea ridică nivelul de referință al semnalului audio la 1.65V, permițând STM32-ului (care citește doar tensiuni pozitive) să înregistreze ambele semialternanțe ale undei sonore.</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Afișaj cu 10 LED-uri</td>
-                    <td>[Model]</td>
-                    <td>Matrice liniară de diode luminoase care acționează ca indicator grafic de volum.</td>
-                </tr>
-            </tbody>
+    <tr>
+        <td>1</td>
+        <td>Microcontroller</td>
+        <td>STM32F103C8T6</td>
+        <td>Procesează semnalul primit de la microfon prin intermediul convertorului analog-digital (ADC) intern și controlează dinamic pinii de ieșire pentru LED-uri.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Microfon</td>
+        <td>Hama MIC-P35 Allround</td>
+        <td>Capsulă de tip electret cu sensibilitate ridicată, responsabilă de preluarea undelor sonore și transformarea lor în semnale electrice de mică amplitudinex</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Breakout CJMCU-TRRS</td>
+        <td>XDQPGV_jack_module_3.5</td>
+        <td>Modul de conexiune mecanică și electrică ce permite cuplarea fermă și curată a mufei Jack de 3.5mm a microfonului pe breadboard.</td>
+    </tr>
+    
+    <tr>
+        <td>4</td>
+        <td>Fir Colorat Tată - Tată (20 cm)</td>
+        <td>0104210000001754</td>
+        <td>Set de 7 fire elastice utilizate pentru realizarea conexiunilor electrice flexibile între pinii microcontrolerului, periferice și liniile de alimentare de pe breadboard.</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>LED RGB cu Anod Comun</td>
+        <td>0104210000005752</td>
+        <td>Set de 10 diode luminoase folosite pentru afișarea dinamică a volumului sau a stărilor sistemului prin combinarea culorilor de bază (Roșu, Verde, Albastru).</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Convertor USB la UART CH340G</td>
+        <td>0104110000091031</td>
+        <td>Modul de interfațare ce permite depanarea și comunicația serială (transmisia de date) între microcontrolerul STM32 și calculator.</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Condensator electrolitic 1uF 50V</td>
+        <td>UDOZCE_KS105M050C07RR0VH2FP0_CPE</td>
+        <td>Conectat în serie pe traseul audio; blochează componenta de curent continuu (DC Offset) și lasă doar semnalul audio alternativ (AC) să treacă spre pinul ADC.</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Rezistor 0.25W 220Ω</td>
+        <td>DGDLZO_CRI/4W-220R-5pc-ST52</td>
+        <td>Set de 10 rezistențe folosite pentru limitarea curentului prin canalele LED-urilor RGB, prevenind distrugerea acestora și suprasolicitarea pinilor microcontrolerului.</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Rezistor 0.25W 4.7KΩ</td>
+        <td>0104210000007381</td>
+        <td>Rezistență utilizată ca „pull-up” pentru circuitul de alimentare (Bias), esențială pentru polarizarea corectă a capsulei microfonului electret.</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Rezistor 0.25W 10KΩ</td>
+        <td>01042100000010039</td>
+        <td>Set de 2 rezistențe egale montate în configurație de divizor de tensiune pentru a ridica referința semnalului audio (Bias la 1.65V), permițând citirea alternanțelor negative de către ADC.</td>
+    </tr>
+</tbody>
         </table>
 
         <h3>2.3 Fotografii ale machetei (Evoluția asamblării)</h3>
