@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/USB_DEVICE/App",
+                "${workspaceFolder}/USB_DEVICE/Target",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103xB"
+            ],
+            "compilerPath": "D:/CubeCLT/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
