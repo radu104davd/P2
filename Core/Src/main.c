@@ -7,8 +7,8 @@
   */
 /* USER CODE END Header */
 
-#include "main.h"
 #include <stdint.h>
+#include "main.h"
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;

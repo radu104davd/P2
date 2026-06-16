@@ -12,8 +12,6 @@
                 "${workspaceFolder}/USB_DEVICE/Target",
                 "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
                 "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
-                "${workspaceFolder}/Core/Inc",
-                "${workspaceFolder}/Drivers/**",
                 "D:/CubeCLT/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/arm-none-eabi/include",
                 "D:/CubeCLT/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/14.3.1/include"
             ],
@@ -21,7 +19,11 @@
                 "USE_HAL_DRIVER",
                 "STM32F103xB"
             ],
-            "compilerPath": " " ,
+            "compilerPath": "D:/CubeCLT/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m3",
+                "-mthumb"
+            ],
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-arm"
