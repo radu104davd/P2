@@ -1,12 +1,3 @@
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : VU meter STM32F103 cu ADC + UART
-  ******************************************************************************
-  */
-/* USER CODE END Header */
-
 #include <stdint.h>
 #include "main.h"
 
