@@ -1,4 +1,5 @@
 {
     "stm32-for-vscode.openOCDPath": false,
-    "stm32-for-vscode.makePath": "D:\\MakeForWindows\\make-3.81-bin\\bin\\make.EXE"
+    "stm32-for-vscode.makePath": "D:\\MakeForWindows\\make-3.81-bin\\bin\\make.EXE",
+    "C_Cpp.default.compilerPath": "D:/CubeCLT/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe"
 }
