@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     (#) Complementary outputs with programmable dead-time for :
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****         (++) Output Compare
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****         (++) PWM generation (Edge and Center-aligned Mode)
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 2
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 2
 
 
   33:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****         (++) One-pulse mode output
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /** @defgroup TIMEx TIMEx
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @brief TIM Extended HAL module driver
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @{
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 3
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 3
 
 
   90:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  144:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  145:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     return HAL_ERROR;
  146:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 4
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 4
 
 
  147:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  201:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->Instance->SMCR &= ~TIM_SMCR_SMS;
  202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->Instance->SMCR |= TIM_SLAVEMODE_RESET;
  203:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 5
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 5
 
 
  204:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Program channel 2 in PWM 2 mode with the desired Commutation_Delay*/
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* DeInit the low level hardware: GPIO, CLOCK, NVIC */
  259:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIMEx_HallSensor_MspDeInit(htim);
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 6
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 6
 
 
  261:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  315:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start(TIM_HandleTypeDef *htim)
  316:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** {
  317:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 7
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 7
 
 
  318:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef channel_1_state = TIM_CHANNEL_STATE_GET(htim, TIM_CHANNEL_1);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  372:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_HALL_SENSOR_INTERFACE_INSTANCE(htim->Instance));
  373:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  374:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable the Input Capture channels 1, 2 and 3
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 8
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 8
 
 
  375:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   (in the Hall Sensor Interface the three possible channels that can be used are TIM_CHANNEL_1,
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  429:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CCxChannelCmd(htim->Instance, TIM_CHANNEL_1, TIM_CCx_ENABLE);
  430:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  431:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the Peripheral, except in trigger mode where enable is automatically done with trigger 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 9
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 9
 
 
  432:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if (IS_TIM_SLAVE_INSTANCE(htim->Instance))
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  486:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
  487:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t
  488:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 10
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 10
 
 
  489:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     tmpsmcr = htim->Instance->SMCR & TIM_SMCR_SMS;
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  545:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 11
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 11
 
 
  546:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       __HAL_TIM_ENABLE(htim);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  600:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   ==============================================================================
  601:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   [..]
  602:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     This section provides functions allowing to:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 12
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 12
 
 
  603:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     (+) Start the Complementary Output Compare/PWM.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  657:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  658:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     __HAL_TIM_ENABLE(htim);
  659:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 13
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 13
 
 
  660:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  714:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_CCXN_INSTANCE(htim->Instance, Channel));
  715:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the TIM complementary channel state */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 14
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 14
 
 
  717:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if (TIM_CHANNEL_N_STATE_GET(htim, Channel) != HAL_TIM_CHANNEL_STATE_READY)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  771:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****         __HAL_TIM_ENABLE(htim);
  772:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       }
  773:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 15
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 15
 
 
  774:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     else
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  828:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  829:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  830:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 16
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 16
 
 
  831:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if (status == HAL_OK)
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  885:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  886:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if ((pData == NULL) || (Length == 0U))
  887:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 17
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 17
 
 
  888:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       return HAL_ERROR;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  942:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  943:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  944:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 18
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 18
 
 
  945:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  999:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         on the complementary output.
 1000:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM Output Compare handle
 1001:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 19
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 19
 
 
 1002:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1056:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1057:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     /* Set the TIM complementary channel state */
 1058:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, Channel, HAL_TIM_CHANNEL_STATE_READY);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 20
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 20
 
 
 1059:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1113:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
 1114:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_CCXN_INSTANCE(htim->Instance, Channel));
 1115:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 21
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 21
 
 
 1116:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the TIM complementary channel state */
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1170:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable the Peripheral */
 1171:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE(htim);
 1172:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 22
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 22
 
 
 1173:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the TIM complementary channel state */
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1227:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       __HAL_TIM_ENABLE_IT(htim, TIM_IT_CC3);
 1228:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
 1229:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 23
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 23
 
 
 1230:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1284:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1285:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   switch (Channel)
 1286:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 24
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 24
 
 
 1287:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_1:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1341:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         complementary output
 1342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM handle
 1343:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be enabled
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 25
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 25
 
 
 1344:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1398:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****         return HAL_ERROR;
 1399:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       }
 1400:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       /* Enable the TIM Capture/Compare 1 DMA request */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 26
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 26
 
 
 1401:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       __HAL_TIM_ENABLE_DMA(htim, TIM_DMA_CC1);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1455:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
 1456:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1457:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     /* Enable the Main Output */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 27
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 27
 
 
 1458:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     __HAL_TIM_MOE_ENABLE(htim);
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1512:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
 1513:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
 1514:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 28
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 28
 
 
 1515:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1569:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /**
 1570:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @brief  Starts the TIM One Pulse signal generation on the complementary
 1571:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         output.
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 29
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 29
 
 
 1572:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @note OutputChannel must match the pulse output channel chosen when calling
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1626:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
 1627:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
 1628:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @retval HAL status
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 30
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 30
 
 
 1629:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1683:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       || (complementary_channel_1_state != HAL_TIM_CHANNEL_STATE_READY)
 1684:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       || (complementary_channel_2_state != HAL_TIM_CHANNEL_STATE_READY))
 1685:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 31
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 31
 
 
 1686:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     return HAL_ERROR;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1740:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1741:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable the Main Output */
 1742:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_MOE_DISABLE(htim);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 32
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 32
 
 
 1743:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1797:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  CommutationSource the Commutation Event source
 1798:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
 1799:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_COMMUTATION_TRGI: Commutation source is the TRGI of the Interface Timer
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 33
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 33
 
 
 1800:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_COMMUTATION_SOFTWARE:  Commutation source is set by software using the COMG
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1854:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
 1855:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_COMMUTATION_TRGI: Commutation source is the TRGI of the Interface Timer
 1856:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_COMMUTATION_SOFTWARE:  Commutation source is set by software using the COMG
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 34
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 34
 
 
 1857:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @retval HAL status
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1911:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
 1912:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_COMMUTATION_TRGI: Commutation source is the TRGI of the Interface Timer
 1913:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_COMMUTATION_SOFTWARE:  Commutation source is set by software using the COMG
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 35
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 35
 
 
 1914:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @retval HAL status
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1968:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpcr2;
 1969:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
 1970:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 36
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 36
 
 
 1971:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2025:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
 2026:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_ConfigBreakDeadTime(TIM_HandleTypeDef *htim,
 2027:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****                                                 const TIM_BreakDeadTimeConfigTypeDef *sBreakDeadTim
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 37
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 37
 
 
 2028:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** {
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2082:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /**
 2083:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @}
 2084:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 38
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 38
 
 
 2085:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2139:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   UNUSED(htim);
 2140:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 2141:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 39
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 39
 
 
 2142:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****             the HAL_TIMEx_BreakCallback could be implemented in the user file
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2196:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @}
 2197:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
 2198:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 40
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 40
 
 
 2199:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /**
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2253:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** {
 2254:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_HandleTypeDef *htim = (TIM_HandleTypeDef *)((DMA_HandleTypeDef *)hdma)->Parent;
 2255:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 41
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 41
 
 
 2256:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if (hdma == htim->hdma[TIM_DMA_ID_CC1])
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2310:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
 2311:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** static void TIM_DMAErrorCCxN(DMA_HandleTypeDef *hdma)
 2312:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 42
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 42
 
 
 2313:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_HandleTypeDef *htim = (TIM_HandleTypeDef *)((DMA_HandleTypeDef *)hdma)->Parent;
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
   33              		.loc 1 2360 3 view .LVU2
   34              		.loc 1 2360 36 is_stmt 0 view .LVU3
   35 0000 01F01F01 		and	r1, r1, #31
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 43
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 43
 
 
   36              	.LVL1:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
   81              		.loc 1 2313 22 is_stmt 0 view .LVU16
   82 0002 446A     		ldr	r4, [r0, #36]
   83              	.LVL5:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 44
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 44
 
 
 2315:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  121 0024 2377     		strb	r3, [r4, #28]
 2318:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  122              		.loc 1 2318 5 is_stmt 1 view .LVU34
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 45
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 45
 
 
  123 0026 84F84230 		strb	r3, [r4, #66]
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2256:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  169              		.loc 1 2256 3 is_stmt 1 view .LVU45
 2256:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 46
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 46
 
 
  170              		.loc 1 2256 25 is_stmt 0 view .LVU46
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  208              	.L16:
 2258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  209              		.loc 1 2258 5 is_stmt 1 view .LVU63
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 47
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 47
 
 
 2258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  248 0054 E2D1     		bne	.L12
 2280:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  249              		.loc 1 2280 7 is_stmt 1 view .LVU80
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 48
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 48
 
 
  250 0056 0123     		movs	r3, #1
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  299              	HAL_TIMEx_HallSensor_Init:
  300              	.LVL15:
  301              	.LFB65:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 49
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 49
 
 
  139:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_OC_InitTypeDef OC_Config;
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  180:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  340              		.loc 1 180 3 is_stmt 1 view .LVU106
  180:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 50
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 50
 
 
  341              		.loc 1 180 15 is_stmt 0 view .LVU107
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  379              		.loc 1 194 17 view .LVU123
  380 0046 5368     		ldr	r3, [r2, #4]
  194:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 51
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 51
 
 
  381              		.loc 1 194 23 view .LVU124
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  417              		.loc 1 205 24 is_stmt 0 view .LVU142
  418 0076 0025     		movs	r5, #0
  419 0078 0595     		str	r5, [sp, #20]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 52
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 52
 
 
  206:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCMode = TIM_OCMODE_PWM2;
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  218:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  455              		.loc 1 218 7 is_stmt 0 view .LVU162
  456 009c 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 53
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 53
 
 
  218:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  495 00ca FFF7FEFF 		bl	HAL_TIMEx_HallSensor_MspInit
  496              	.LVL21:
  175:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 54
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 54
 
 
  497              		.loc 1 175 5 is_stmt 0 view .LVU179
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  549              		@ frame_needed = 0, uses_anonymous_args = 0
  241:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
  550              		.loc 1 241 1 is_stmt 0 view .LVU186
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 55
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 55
 
 
  551 0000 10B5     		push	{r4, lr}
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  267:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_RESET);
  592              		.loc 1 267 3 view .LVU200
  593 0038 84F83F00 		strb	r0, [r4, #63]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 56
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 56
 
 
  268:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_RESET);
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  635              		.loc 1 318 31 is_stmt 0 view .LVU215
  636 0004 90F83EC0 		ldrb	ip, [r0, #62]	@ zero_extendqisi2
  637              	.LVL29:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 57
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 57
 
 
  319:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_1_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  336:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_BUSY);
  676              		.loc 1 336 3 is_stmt 1 view .LVU232
  677 0034 0223     		movs	r3, #2
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 58
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 58
 
 
  678              	.LVL34:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  718 0076 0BE0     		b	.L35
  719              	.L36:
  349:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 59
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 59
 
 
  720              		.loc 1 349 5 is_stmt 1 view .LVU247
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  764              		.section	.text.HAL_TIMEx_HallSensor_Stop,"ax",%progbits
  765              		.align	1
  766              		.global	HAL_TIMEx_HallSensor_Stop
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 60
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 60
 
 
  767              		.syntax unified
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  383:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_READY);
  812              		.loc 1 383 3 view .LVU269
  813 002c 0123     		movs	r3, #1
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 61
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 61
 
 
  814 002e 84F83E30 		strb	r3, [r4, #62]
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  857 0008 90F83F30 		ldrb	r3, [r0, #63]	@ zero_extendqisi2
  858              	.LVL48:
  402:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_2_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 62
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 62
 
 
  859              		.loc 1 402 3 is_stmt 1 view .LVU283
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  419:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_BUSY);
  898              		.loc 1 419 3 is_stmt 1 view .LVU299
  899 003a 84F83F30 		strb	r3, [r4, #63]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 63
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 63
 
 
  420:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_BUSY);
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  446:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
  941              		.loc 1 446 10 is_stmt 0 view .LVU313
  942 0080 0020     		movs	r0, #0
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 64
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 64
 
 
  943 0082 0BE0     		b	.L50
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  985 00a8 002C0140 		.word	1073818624
  986              		.cfi_endproc
  987              	.LFE71:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 65
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 65
 
 
  989              		.section	.text.HAL_TIMEx_HallSensor_Stop_IT,"ax",%progbits
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1035 002c 03D1     		bne	.L62
  468:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1036              		.loc 1 468 3 discriminator 2 view .LVU335
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 66
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 66
 
 
  1037 002e 1A68     		ldr	r2, [r3]
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1083 0002 0446     		mov	r4, r0
  489:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef channel_1_state = TIM_CHANNEL_STATE_GET(htim, TIM_CHANNEL_1);
  1084              		.loc 1 489 3 is_stmt 1 view .LVU346
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 67
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 67
 
 
  490:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_1_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1123              	.LVL69:
  1124              	.L74:
  511:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_BUSY);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 68
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 68
 
 
  1125              		.loc 1 511 7 is_stmt 1 view .LVU363
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  532:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1163              		.loc 1 532 7 view .LVU380
  1164 005a 3346     		mov	r3, r6
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 69
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 69
 
 
  1165 005c 3A46     		mov	r2, r7
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
  1207              		.loc 1 544 5 is_stmt 1 view .LVU393
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 70
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 70
 
 
  1208              		.loc 1 544 8 is_stmt 0 view .LVU394
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1253              	.LFE73:
  1255              		.section	.text.HAL_TIMEx_HallSensor_Stop_DMA,"ax",%progbits
  1256              		.align	1
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 71
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 71
 
 
  1257              		.global	HAL_TIMEx_HallSensor_Stop_DMA
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  580:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1302              		.loc 1 580 3 discriminator 1 view .LVU414
  1303 002a 196A     		ldr	r1, [r3, #32]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 72
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 72
 
 
  1304 002c 40F24442 		movw	r2, #1092
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  633:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1349              		.loc 1 633 3 view .LVU426
  633:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 73
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 73
 
 
  1350              		.loc 1 633 46 is_stmt 0 view .LVU427
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1391 0036 244A     		ldr	r2, .L99
  1392 0038 9342     		cmp	r3, r2
  1393 003a 36D0     		beq	.L90
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 74
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 74
 
 
  648:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1436              		.loc 1 633 7 discriminator 7 view .LVU452
  1437 007e 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
  633:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 75
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 75
 
 
  1438              		.loc 1 633 46 discriminator 7 view .LVU453
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1480 00b6 42F00102 		orr	r2, r2, #1
  1481 00ba 1A60     		str	r2, [r3]
  662:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 76
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 76
 
 
  1482              		.loc 1 662 10 view .LVU466
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1531 0006 0022     		movs	r2, #0
  1532 0008 0068     		ldr	r0, [r0]
  1533              	.LVL101:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 77
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 77
 
 
  682:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1575              		.loc 1 691 3 is_stmt 0 discriminator 1 view .LVU486
  1576 004c 0123     		movs	r3, #1
  1577 004e 84F84230 		strb	r3, [r4, #66]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 78
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 78
 
 
  1578              	.L105:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1625              		.cfi_def_cfa_offset 8
  1626              		.cfi_offset 4, -8
  1627              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 79
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 79
 
 
  1628 0002 0446     		mov	r4, r0
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1666              		.loc 1 757 5 view .LVU511
  1667 002c 2268     		ldr	r2, [r4]
  1668 002e D368     		ldr	r3, [r2, #12]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 80
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 80
 
 
  1669 0030 43F08003 		orr	r3, r3, #128
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  717:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1712              		.loc 1 717 46 is_stmt 0 discriminator 2 view .LVU523
  1713 0074 0429     		cmp	r1, #4
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 81
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 81
 
 
  1714 0076 07D0     		beq	.L130
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1757 00b8 B3D0     		beq	.L118
  1758 00ba 0120     		movs	r0, #1
  1759              	.LVL111:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 82
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 82
 
 
  725:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1799              		.loc 1 769 7 is_stmt 1 view .LVU549
  769:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       {
  1800              		.loc 1 769 10 is_stmt 0 view .LVU550
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 83
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 83
 
 
  1801 00e8 062A     		cmp	r2, #6
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1850              		.cfi_offset 4, -12
  1851              		.cfi_offset 5, -8
  1852              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 84
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 84
 
 
  1853 0002 0446     		mov	r4, r0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1892 002a 40F24442 		movw	r2, #1092
  1893 002e 1142     		tst	r1, r2
  1894 0030 03D1     		bne	.L141
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 85
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 85
 
 
  840:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1937              		.loc 1 847 5 view .LVU584
  850:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  1938              		.loc 1 850 5 view .LVU585
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 86
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 86
 
 
  1939 0076 85B9     		cbnz	r5, .L144
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  1981              	.L149:
  850:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  1982              		.loc 1 850 5 discriminator 3 view .LVU598
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 87
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 87
 
 
  1983 00ac 0123     		movs	r3, #1
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  880:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2031              		.loc 1 880 3 view .LVU607
  880:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 88
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 88
 
 
  2032              		.loc 1 880 46 is_stmt 0 view .LVU608
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  892:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  2074              		.loc 1 892 7 is_stmt 0 discriminator 1 view .LVU621
  2075 0044 0222     		movs	r2, #2
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 89
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 89
 
 
  2076 0046 84F84220 		strb	r2, [r4, #66]
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2114 0072 43F40073 		orr	r3, r3, #512
  2115 0076 D360     		str	r3, [r2, #12]
  920:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 90
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 90
 
 
  2116              		.loc 1 920 7 view .LVU638
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  880:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2159              		.loc 1 880 46 discriminator 5 view .LVU650
  2160 00be 0829     		cmp	r1, #8
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 91
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 91
 
 
  2161 00c0 0DD0     		beq	.L181
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2205 00fa 14BF     		ite	ne
  2206 00fc 0022     		movne	r2, #0
  2207 00fe 0122     		moveq	r2, #1
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 92
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 92
 
 
  2208 0100 95E7     		b	.L158
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2253 013e 84F84320 		strb	r2, [r4, #67]
  900:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2254              		.loc 1 900 3 is_stmt 1 view .LVU670
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 93
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 93
 
 
  2255              	.L164:
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2293              		.loc 1 941 7 view .LVU686
  970:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2294              		.loc 1 970 3 view .LVU687
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 94
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 94
 
 
  2295 016e 83E7     		b	.L167
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2333 0194 E0B9     		cbnz	r0, .L177
  961:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  2334              		.loc 1 961 7 is_stmt 1 view .LVU704
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 95
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 95
 
 
  2335 0196 2268     		ldr	r2, [r4]
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2376              		.loc 1 888 14 view .LVU717
  2377 01c0 0120     		movs	r0, #1
  2378 01c2 FCE7     		b	.L156
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 96
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 96
 
 
  2379              	.L173:
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2429              		.cfi_offset 4, -12
  2430              		.cfi_offset 5, -8
  2431              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 97
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 97
 
 
  2432 0002 0446     		mov	r4, r0
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2473 0038 196A     		ldr	r1, [r3, #32]
  2474 003a 40F24442 		movw	r2, #1092
  2475 003e 1142     		tst	r1, r2
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 98
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 98
 
 
  2476 0040 03D1     		bne	.L193
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2518 007c D360     		str	r3, [r2, #12]
 1029:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  2519              		.loc 1 1029 7 view .LVU749
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 99
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 99
 
 
 1029:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2560 00aa 0123     		movs	r3, #1
  2561 00ac 84F84330 		strb	r3, [r4, #67]
  2562 00b0 0020     		movs	r0, #0
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 100
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 100
 
 
  2563 00b2 DEE7     		b	.L191
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1117:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2609              		.loc 1 1117 7 discriminator 1 view .LVU774
  2610 0008 94F84230 		ldrb	r3, [r4, #66]	@ zero_extendqisi2
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 101
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 101
 
 
 1117:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2652 0042 A2F59432 		sub	r2, r2, #75776
  2653 0046 9342     		cmp	r3, r2
  2654 0048 2FD0     		beq	.L212
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 102
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 102
 
 
 1132:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1123:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2698              		.loc 1 1123 3 discriminator 2 view .LVU799
  2699 008a 0428     		cmp	r0, #4
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 103
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 103
 
 
  2700 008c 05D0     		beq	.L219
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2741              		.loc 1 1119 12 view .LVU812
  2742 00c0 0120     		movs	r0, #1
  2743              	.LVL186:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 104
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 104
 
 
  2744              	.L207:
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1168:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2792              		.loc 1 1168 3 view .LVU821
  2793 000e 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 105
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 105
 
 
  2794 0010 196A     		ldr	r1, [r3, #32]
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2836 0054 38BD     		pop	{r3, r4, r5, pc}
  2837              	.LVL191:
  2838              	.L226:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 106
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 106
 
 
 1174:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1197:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2886              		.loc 1 1197 3 view .LVU843
 1200:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 107
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 107
 
 
  2887              		.loc 1 1200 3 view .LVU844
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2928              	.LVL195:
 1242:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2929              		.loc 1 1242 5 is_stmt 0 view .LVU858
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 108
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 108
 
 
  2930 003a 2068     		ldr	r0, [r4]
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  2972              		.loc 1 1200 7 discriminator 8 view .LVU870
  2973 007c 94F84530 		ldrb	r3, [r4, #69]	@ zero_extendqisi2
 1200:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 109
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 109
 
 
  2974              		.loc 1 1200 46 discriminator 8 view .LVU871
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3018              		.loc 1 1206 3 discriminator 3 view .LVU881
  3019 00be 0223     		movs	r3, #2
  3020 00c0 84F84330 		strb	r3, [r4, #67]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 110
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 110
 
 
 1208:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1253:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       }
  3060              		.loc 1 1253 9 is_stmt 0 view .LVU897
  3061 00ee 42F00102 		orr	r2, r2, #1
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 111
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 111
 
 
  3062 00f2 1A60     		str	r2, [r3]
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3111              		.loc 1 1280 3 view .LVU904
 1283:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3112              		.loc 1 1283 3 view .LVU905
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 112
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 112
 
 
 1285:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1326:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3154              		.loc 1 1326 5 view .LVU919
 1326:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 113
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 113
 
 
  3155              		.loc 1 1326 5 view .LVU920
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3198              	.LVL214:
  3199              	.L261:
 1336:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 114
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 114
 
 
  3200              		.loc 1 1336 3 is_stmt 1 view .LVU932
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3242              		.loc 1 1332 5 discriminator 6 view .LVU944
  3243 00b6 0123     		movs	r3, #1
  3244 00b8 84F84430 		strb	r3, [r4, #68]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 115
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 115
 
 
  3245 00bc 0020     		movs	r0, #0
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3291 000c 90F84200 		ldrb	r0, [r0, #66]	@ zero_extendqisi2
  3292              	.LVL221:
 1362:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 116
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 116
 
 
  3293              		.loc 1 1362 46 discriminator 1 view .LVU955
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1387:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
  3334              		.loc 1 1387 17 is_stmt 0 view .LVU969
  3335 004a 626A     		ldr	r2, [r4, #36]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 117
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 117
 
 
 1387:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3374 0078 0422     		movs	r2, #4
  3375 007a 2946     		mov	r1, r5
  3376 007c 2068     		ldr	r0, [r4]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 118
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 118
 
 
  3377 007e FFF7FEFF 		bl	TIM_CCxNChannelCmd
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3419              		.loc 1 1362 46 discriminator 8 view .LVU997
  3420 00c6 0228     		cmp	r0, #2
  3421 00c8 14BF     		ite	ne
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 119
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 119
 
 
  3422 00ca 0020     		movne	r0, #0
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3467              	.LVL234:
 1366:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3468              		.loc 1 1366 51 discriminator 4 view .LVU1007
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 120
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 120
 
 
  3469 0106 012A     		cmp	r2, #1
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1408:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC2]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
  3513              		.loc 1 1408 52 view .LVU1018
  3514 0144 2449     		ldr	r1, .L308
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 121
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 121
 
 
  3515              	.LVL237:
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3554 0172 84F84420 		strb	r2, [r4, #68]
 1382:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3555              		.loc 1 1382 3 is_stmt 1 view .LVU1034
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 122
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 122
 
 
  3556              	.L288:
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1452:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3594              		.loc 1 1452 3 view .LVU1051
  3595 01a0 6AE7     		b	.L289
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 123
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 123
 
 
  3596              	.L290:
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3638              		.loc 1 1398 16 view .LVU1063
  3639 01c8 0120     		movs	r0, #1
  3640 01ca F8E7     		b	.L278
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 124
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 124
 
 
  3641              	.L298:
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3690              		.loc 1 1495 3 view .LVU1070
 1497:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3691              		.loc 1 1497 3 view .LVU1071
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 125
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 125
 
 
  3692 0006 0429     		cmp	r1, #4
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3735              	.L315:
 1534:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3736              		.loc 1 1534 5 view .LVU1083
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 126
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 126
 
 
 1537:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3778 0080 FFF7FEFF 		bl	HAL_DMA_Abort_IT
  3779              	.LVL258:
 1512:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 127
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 127
 
 
  3780              		.loc 1 1512 7 is_stmt 1 view .LVU1097
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3822 00ba 0020     		movs	r0, #0
  3823 00bc D9E7     		b	.L313
  3824              	.LVL262:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 128
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 128
 
 
  3825              	.L320:
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1585:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_1_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
  3871              		.loc 1 1585 31 is_stmt 0 view .LVU1120
  3872 0012 94F83F30 		ldrb	r3, [r4, #63]	@ zero_extendqisi2
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 129
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 129
 
 
  3873 0016 DBB2     		uxtb	r3, r3
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3913              	.LVL273:
 1602:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_BUSY);
  3914              		.loc 1 1602 3 is_stmt 0 view .LVU1135
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 130
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 130
 
 
  3915 0044 84F83E30 		strb	r3, [r4, #62]
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  3956 0078 70BD     		pop	{r4, r5, r6, pc}
  3957              	.LVL281:
  3958              	.L329:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 131
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 131
 
 
 1598:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4005              	.LVL286:
 1639:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4006              		.loc 1 1639 3 is_stmt 1 view .LVU1159
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 132
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 132
 
 
  4007 0012 0022     		movs	r2, #0
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4050 005a 84F83E30 		strb	r3, [r4, #62]
 1649:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
  4051              		.loc 1 1649 3 view .LVU1171
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 133
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 133
 
 
  4052 005e 84F83F30 		strb	r3, [r4, #63]
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4098              	.L340:
  4099              	.LVL290:
 1672:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef channel_2_state = TIM_CHANNEL_STATE_GET(htim, TIM_CHANNEL_2);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 134
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 134
 
 
  4100              		.loc 1 1672 3 is_stmt 1 view .LVU1182
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4139              	.LVL296:
  4140              	.L342:
 1671:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef channel_1_state = TIM_CHANNEL_STATE_GET(htim, TIM_CHANNEL_1);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 135
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 135
 
 
  4141              		.loc 1 1671 77 discriminator 2 view .LVU1198
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4183 0078 FFF7FEFF 		bl	TIM_CCxChannelCmd
  4184              	.LVL303:
 1706:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 136
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 136
 
 
  4185              		.loc 1 1706 3 view .LVU1211
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4233              		.cfi_offset 14, -4
  4234 0002 0446     		mov	r4, r0
 1726:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 137
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 137
 
 
  4235              		.loc 1 1726 3 is_stmt 1 view .LVU1220
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4278 0044 03D1     		bne	.L350
 1742:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4279              		.loc 1 1742 3 discriminator 2 view .LVU1232
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 138
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 138
 
 
  4280 0046 5A6C     		ldr	r2, [r3, #68]
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4321              		.cfi_endproc
  4322              	.LFE90:
  4324              		.section	.text.HAL_TIMEx_ConfigCommutEvent,"ax",%progbits
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 139
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 139
 
 
  4325              		.align	1
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1816:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     htim->Instance->SMCR |= InputTrigger;
  4368              		.loc 1 1816 9 is_stmt 0 view .LVU1258
  4369 001e 1C68     		ldr	r4, [r3]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 140
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 140
 
 
 1816:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     htim->Instance->SMCR |= InputTrigger;
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4406 0046 4168     		ldr	r1, [r0, #4]
 1824:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4407              		.loc 1 1824 23 view .LVU1277
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 141
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 141
 
 
  4408 0048 0A43     		orrs	r2, r2, r1
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4452              		.thumb
  4453              		.thumb_func
  4455              	HAL_TIMEx_ConfigCommutEvent_IT:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 142
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 142
 
 
  4456              	.LVL319:
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1872:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     htim->Instance->SMCR |= InputTrigger;
  4496              		.loc 1 1872 26 view .LVU1303
  4497 0022 20F07000 		bic	r0, r0, #112
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 143
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 143
 
 
  4498 0026 A060     		str	r0, [r4, #8]
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4534              		.loc 1 1880 23 view .LVU1321
  4535 004a 4260     		str	r2, [r0, #4]
 1883:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 144
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 144
 
 
  4536              		.loc 1 1883 3 is_stmt 1 view .LVU1322
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4582              		.loc 1 1918 1 is_stmt 1 view -0
  4583              		.cfi_startproc
  4584              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 145
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 145
 
 
  4585              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 1930:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  4624              		.loc 1 1930 9 is_stmt 0 view .LVU1348
  4625 0028 1C68     		ldr	r4, [r3]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 146
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 146
 
 
 1930:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4662 004c 5A6B     		ldr	r2, [r3, #52]
 1941:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->hdma[TIM_DMA_ID_COMMUTATION]->XferHalfCpltCallback = TIMEx_DMACommutationHalfCplt;
  4663              		.loc 1 1941 56 view .LVU1367
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 147
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 147
 
 
  4664 004e 0E49     		ldr	r1, .L384
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4704              	.LCFI35:
  4705              		.cfi_def_cfa_offset 0
  4706              		.cfi_restore 4
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 148
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 148
 
 
 1923:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4751              		.loc 1 1977 3 is_stmt 1 discriminator 2 view .LVU1393
  4752 000c 0122     		movs	r2, #1
  4753 000e 80F83C20 		strb	r2, [r0, #60]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 149
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 149
 
 
 1977:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4789 002e 8242     		cmp	r2, r0
  4790 0030 0AD0     		beq	.L388
 1996:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 150
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 150
 
 
  4791              		.loc 1 1996 7 discriminator 1 view .LVU1413
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4829              		.loc 1 2013 1 is_stmt 0 view .LVU1429
  4830 005e 10BC     		pop	{r4}
  4831 0060 7047     		bx	lr
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 151
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 151
 
 
  4832              	.LVL339:
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4875              		.loc 1 2040 3 view .LVU1442
 2043:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4876              		.loc 1 2043 3 view .LVU1443
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 152
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 152
 
 
 2043:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4917              	.LVL353:
 2053:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_BKP, sBreakDeadTimeConfig->BreakPolarity);
  4918              		.loc 1 2053 3 is_stmt 0 view .LVU1458
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 153
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 153
 
 
  4919 002e 0869     		ldr	r0, [r1, #16]
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  4957              		.loc 1 2043 3 discriminator 1 view .LVU1474
  4958 004e 0220     		movs	r0, #2
  4959              	.LVL363:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 154
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 154
 
 
 2064:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  5008 0000 7047     		bx	lr
  5009              		.cfi_endproc
  5010              	.LFE97:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 155
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 155
 
 
  5012              		.section	.text.TIMEx_DMACommutationCplt,"ax",%progbits
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  5060              		@ args = 0, pretend = 0, frame = 0
  5061              		@ frame_needed = 0, uses_anonymous_args = 0
  5062              		@ link register save eliminated.
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 156
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 156
 
 
 2124:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  5110              		.thumb_func
  5112              	HAL_TIMEx_BreakCallback:
  5113              	.LVL374:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 157
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 157
 
 
  5114              	.LFB99:
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  5164              		@ link register save eliminated.
 2186:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  5165              		.loc 1 2186 3 view .LVU1512
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 158
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 158
 
 
 2189:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
 2191:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  5206              		.loc 1 2191 19 discriminator 7 view .LVU1527
  5207 0026 C0B2     		uxtb	r0, r0
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 159
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 159
 
 
  5208 0028 7047     		bx	lr
@@ -9494,109 +9494,109 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 1
  5219              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
  5220              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h"
  5221              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h"
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 160
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 160
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_hal_tim_ex.c
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:19     .text.TIM_CCxNChannelCmd:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:24     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:62     .text.TIM_DMAErrorCCxN:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:67     .text.TIM_DMAErrorCCxN:00000000 TIM_DMAErrorCCxN
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:147    .text.TIM_DMADelayPulseNCplt:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:152    .text.TIM_DMADelayPulseNCplt:00000000 TIM_DMADelayPulseNCplt
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:272    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:278    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:293    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:299    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:516    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:522    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:537    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:543    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:613    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:619    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:760    .text.HAL_TIMEx_HallSensor_Start:0000009c $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:765    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:771    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:830    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:836    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:985    .text.HAL_TIMEx_HallSensor_Start_IT:000000a8 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:990    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:996    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1060   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1066   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1248   .text.HAL_TIMEx_HallSensor_Start_DMA:000000c0 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1256   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1262   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1327   .text.HAL_TIMEx_OCN_Start:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1333   .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1501   .text.HAL_TIMEx_OCN_Start:000000c8 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1506   .text.HAL_TIMEx_OCN_Stop:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1512   .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1609   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1615   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1827   .text.HAL_TIMEx_OCN_Start_IT:00000100 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1832   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:1838   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2004   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2010   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2403   .text.HAL_TIMEx_OCN_Start_DMA:000001d8 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2411   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2417   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2581   .text.HAL_TIMEx_PWMN_Start:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2587   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2755   .text.HAL_TIMEx_PWMN_Start:000000c8 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2760   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2766   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2863   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:2869   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3081   .text.HAL_TIMEx_PWMN_Start_IT:00000100 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3086   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3092   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3258   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s 			page 161
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:19     .text.TIM_CCxNChannelCmd:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:24     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:62     .text.TIM_DMAErrorCCxN:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:67     .text.TIM_DMAErrorCCxN:00000000 TIM_DMAErrorCCxN
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:147    .text.TIM_DMADelayPulseNCplt:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:152    .text.TIM_DMADelayPulseNCplt:00000000 TIM_DMADelayPulseNCplt
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:272    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:278    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:293    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:299    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:516    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:522    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:537    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:543    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:613    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:619    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:760    .text.HAL_TIMEx_HallSensor_Start:0000009c $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:765    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:771    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:830    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:836    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:985    .text.HAL_TIMEx_HallSensor_Start_IT:000000a8 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:990    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:996    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1060   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1066   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1248   .text.HAL_TIMEx_HallSensor_Start_DMA:000000c0 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1256   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1262   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1327   .text.HAL_TIMEx_OCN_Start:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1333   .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1501   .text.HAL_TIMEx_OCN_Start:000000c8 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1506   .text.HAL_TIMEx_OCN_Stop:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1512   .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1609   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1615   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1827   .text.HAL_TIMEx_OCN_Start_IT:00000100 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1832   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:1838   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2004   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2010   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2403   .text.HAL_TIMEx_OCN_Start_DMA:000001d8 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2411   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2417   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2581   .text.HAL_TIMEx_PWMN_Start:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2587   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2755   .text.HAL_TIMEx_PWMN_Start:000000c8 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2760   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2766   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2863   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:2869   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3081   .text.HAL_TIMEx_PWMN_Start_IT:00000100 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3086   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3092   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3258   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s 			page 161
 
 
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3264   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3657   .text.HAL_TIMEx_PWMN_Start_DMA:000001d8 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3665   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3671   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3835   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3841   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3968   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:3974   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4070   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4076   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4213   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4219   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4325   .text.HAL_TIMEx_ConfigCommutEvent:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4331   .text.HAL_TIMEx_ConfigCommutEvent:00000000 HAL_TIMEx_ConfigCommutEvent
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4449   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4455   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 HAL_TIMEx_ConfigCommutEvent_IT
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4573   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4579   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 HAL_TIMEx_ConfigCommutEvent_DMA
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4714   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000088 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5019   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5076   .text.TIMEx_DMACommutationHalfCplt:00000000 TIMEx_DMACommutationHalfCplt
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4721   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4727   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4845   .text.HAL_TIMEx_MasterConfigSynchronization:00000068 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4850   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4856   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4966   .text.HAL_TIMEx_RemapConfig:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4972   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4992   .text.HAL_TIMEx_CommutCallback:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:4998   .text.HAL_TIMEx_CommutCallback:00000000 HAL_TIMEx_CommutCallback
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5013   .text.TIMEx_DMACommutationCplt:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5049   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5055   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 HAL_TIMEx_CommutHalfCpltCallback
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5070   .text.TIMEx_DMACommutationHalfCplt:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5106   .text.HAL_TIMEx_BreakCallback:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5112   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5127   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5133   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5151   .text.HAL_TIMEx_GetChannelNState:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccxBwqfU.s:5157   .text.HAL_TIMEx_GetChannelNState:00000000 HAL_TIMEx_GetChannelNState
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3264   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3657   .text.HAL_TIMEx_PWMN_Start_DMA:000001d8 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3665   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3671   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3835   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3841   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3968   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:3974   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4070   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4076   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4213   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4219   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4325   .text.HAL_TIMEx_ConfigCommutEvent:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4331   .text.HAL_TIMEx_ConfigCommutEvent:00000000 HAL_TIMEx_ConfigCommutEvent
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4449   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4455   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 HAL_TIMEx_ConfigCommutEvent_IT
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4573   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4579   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 HAL_TIMEx_ConfigCommutEvent_DMA
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4714   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000088 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5019   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5076   .text.TIMEx_DMACommutationHalfCplt:00000000 TIMEx_DMACommutationHalfCplt
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4721   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4727   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4845   .text.HAL_TIMEx_MasterConfigSynchronization:00000068 $d
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4850   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4856   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4966   .text.HAL_TIMEx_RemapConfig:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4972   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4992   .text.HAL_TIMEx_CommutCallback:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:4998   .text.HAL_TIMEx_CommutCallback:00000000 HAL_TIMEx_CommutCallback
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5013   .text.TIMEx_DMACommutationCplt:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5049   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5055   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 HAL_TIMEx_CommutHalfCpltCallback
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5070   .text.TIMEx_DMACommutationHalfCplt:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5106   .text.HAL_TIMEx_BreakCallback:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5112   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5127   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5133   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5151   .text.HAL_TIMEx_GetChannelNState:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccIQRLNA.s:5157   .text.HAL_TIMEx_GetChannelNState:00000000 HAL_TIMEx_GetChannelNState
 
 UNDEFINED SYMBOLS
 HAL_TIM_ErrorCallback

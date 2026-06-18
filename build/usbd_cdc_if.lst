@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
   31:USB_DEVICE/App/usbd_cdc_if.c **** 
   32:USB_DEVICE/App/usbd_cdc_if.c **** /* USER CODE BEGIN PV */
   33:USB_DEVICE/App/usbd_cdc_if.c **** /* Private variables ---------------------------------------------------------*/
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 2
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 2
 
 
   34:USB_DEVICE/App/usbd_cdc_if.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
   88:USB_DEVICE/App/usbd_cdc_if.c **** /* Create buffer for reception and transmission           */
   89:USB_DEVICE/App/usbd_cdc_if.c **** /* It's up to user to redefine and/or remove those define */
   90:USB_DEVICE/App/usbd_cdc_if.c **** /** Received data over USB are stored in this buffer      */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 3
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 3
 
 
   91:USB_DEVICE/App/usbd_cdc_if.c **** uint8_t UserRxBufferFS[APP_RX_DATA_SIZE];
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
  145:USB_DEVICE/App/usbd_cdc_if.c **** /* Private functions ---------------------------------------------------------*/
  146:USB_DEVICE/App/usbd_cdc_if.c **** /**
  147:USB_DEVICE/App/usbd_cdc_if.c ****   * @brief  Initializes the CDC media low layer over the FS USB IP
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 4
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 4
 
 
  148:USB_DEVICE/App/usbd_cdc_if.c ****   * @retval USBD_OK if all operations are OK else USBD_FAIL
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
   50              		@ frame_needed = 0, uses_anonymous_args = 0
   51              		@ link register save eliminated.
  180:USB_DEVICE/App/usbd_cdc_if.c ****   /* USER CODE BEGIN 5 */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 5
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 5
 
 
  181:USB_DEVICE/App/usbd_cdc_if.c ****   switch(cmd)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
  234:USB_DEVICE/App/usbd_cdc_if.c ****     break;
  235:USB_DEVICE/App/usbd_cdc_if.c **** 
  236:USB_DEVICE/App/usbd_cdc_if.c ****   default:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 6
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 6
 
 
  237:USB_DEVICE/App/usbd_cdc_if.c ****     break;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
  262:USB_DEVICE/App/usbd_cdc_if.c ****   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   84              		.loc 1 262 3 is_stmt 1 view .LVU11
   85 0004 044C     		ldr	r4, .L5
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 7
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 7
 
 
   86 0006 2046     		mov	r0, r4
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
  156:USB_DEVICE/App/usbd_cdc_if.c ****   /* USER CODE END 3 */
  135              		.loc 1 156 3 view .LVU19
  158:USB_DEVICE/App/usbd_cdc_if.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 8
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 8
 
 
  136              		.loc 1 158 1 is_stmt 0 view .LVU20
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
  285:USB_DEVICE/App/usbd_cdc_if.c ****     return USBD_BUSY;
  174              		.loc 1 285 12 view .LVU28
  175 000c 0120     		movs	r0, #1
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 9
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 9
 
 
  176              	.LVL12:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
  217              		.align	2
  220              	USBD_Interface_fops_FS:
  221 0000 00000000 		.word	CDC_Init_FS
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 10
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 10
 
 
  222 0004 00000000 		.word	CDC_DeInit_FS
@@ -569,30 +569,30 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 1
  243              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
  244              		.file 5 "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h"
  245              		.file 6 "USB_DEVICE/App/usbd_cdc_if.h"
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s 			page 11
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_cdc_if.c
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:19     .text.CDC_DeInit_FS:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:24     .text.CDC_DeInit_FS:00000000 CDC_DeInit_FS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:39     .text.CDC_Control_FS:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:44     .text.CDC_Control_FS:00000000 CDC_Control_FS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:64     .text.CDC_Receive_FS:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:69     .text.CDC_Receive_FS:00000000 CDC_Receive_FS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:102    .text.CDC_Receive_FS:00000018 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:107    .text.CDC_Init_FS:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:112    .text.CDC_Init_FS:00000000 CDC_Init_FS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:142    .text.CDC_Init_FS:0000001c $d
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:230    .bss.UserTxBufferFS:00000000 UserTxBufferFS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:237    .bss.UserRxBufferFS:00000000 UserRxBufferFS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:149    .text.CDC_Transmit_FS:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:155    .text.CDC_Transmit_FS:00000000 CDC_Transmit_FS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:211    .text.CDC_Transmit_FS:00000028 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:220    .data.USBD_Interface_fops_FS:00000000 USBD_Interface_fops_FS
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:217    .data.USBD_Interface_fops_FS:00000000 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:227    .bss.UserTxBufferFS:00000000 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccewKiLU.s:234    .bss.UserRxBufferFS:00000000 $d
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:19     .text.CDC_DeInit_FS:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:24     .text.CDC_DeInit_FS:00000000 CDC_DeInit_FS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:39     .text.CDC_Control_FS:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:44     .text.CDC_Control_FS:00000000 CDC_Control_FS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:64     .text.CDC_Receive_FS:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:69     .text.CDC_Receive_FS:00000000 CDC_Receive_FS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:102    .text.CDC_Receive_FS:00000018 $d
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:107    .text.CDC_Init_FS:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:112    .text.CDC_Init_FS:00000000 CDC_Init_FS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:142    .text.CDC_Init_FS:0000001c $d
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:230    .bss.UserTxBufferFS:00000000 UserTxBufferFS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:237    .bss.UserRxBufferFS:00000000 UserRxBufferFS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:149    .text.CDC_Transmit_FS:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:155    .text.CDC_Transmit_FS:00000000 CDC_Transmit_FS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:211    .text.CDC_Transmit_FS:00000028 $d
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:220    .data.USBD_Interface_fops_FS:00000000 USBD_Interface_fops_FS
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:217    .data.USBD_Interface_fops_FS:00000000 $d
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:227    .bss.UserTxBufferFS:00000000 $d
+C:\Users\Stanciu\AppData\Local\Temp\cceGSGPQ.s:234    .bss.UserRxBufferFS:00000000 $d
 
 UNDEFINED SYMBOLS
 USBD_CDC_SetRxBuffer

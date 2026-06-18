@@ -97,7 +97,7 @@ int main(void)
 
         for (uint8_t i = 0; i < NUM_LEDS; i++)
         {
-            if ((i < peak_level) || (peak_level > 0 && i == peak_level-1))
+            if ((i < led_level) || (peak_level > 0 && i == peak_level-1))
             {
                 HAL_GPIO_WritePin(ports[i], pins[i], GPIO_PIN_SET);
             }

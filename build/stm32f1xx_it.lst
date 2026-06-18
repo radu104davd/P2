@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
   30:Core/Src/stm32f1xx_it.c **** /* USER CODE END TD */
   31:Core/Src/stm32f1xx_it.c **** 
   32:Core/Src/stm32f1xx_it.c **** /* Private define ------------------------------------------------------------*/
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 2
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 2
 
 
   33:Core/Src/stm32f1xx_it.c **** /* USER CODE BEGIN PD */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
   79:Core/Src/stm32f1xx_it.c ****   }
   35              		.loc 1 79 3 view .LVU2
   77:Core/Src/stm32f1xx_it.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 3
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 3
 
 
   36              		.loc 1 77 10 view .LVU3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
  100:Core/Src/stm32f1xx_it.c ****   */
  101:Core/Src/stm32f1xx_it.c **** void MemManage_Handler(void)
  102:Core/Src/stm32f1xx_it.c **** {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 4
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 4
 
 
   73              		.loc 1 102 1 view -0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
  121:Core/Src/stm32f1xx_it.c ****   {
  105              		.loc 1 121 9 view .LVU15
  106 0000 FEE7     		b	.L8
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 5
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 5
 
 
  107              		.cfi_endproc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
  142              		.loc 1 147 1 view -0
  143              		.cfi_startproc
  144              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 6
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 6
 
 
  145              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
  171:Core/Src/stm32f1xx_it.c ****   */
  172:Core/Src/stm32f1xx_it.c **** void PendSV_Handler(void)
  173:Core/Src/stm32f1xx_it.c **** {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 7
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 7
 
 
  180              		.loc 1 173 1 view -0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
  216              		.section	.text.USB_LP_CAN1_RX0_IRQHandler,"ax",%progbits
  217              		.align	1
  218              		.global	USB_LP_CAN1_RX0_IRQHandler
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 8
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 8
 
 
  219              		.syntax unified
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
  254              		.section	.text.USART1_IRQHandler,"ax",%progbits
  255              		.align	1
  256              		.global	USART1_IRQHandler
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 9
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 9
 
 
  257              		.syntax unified
@@ -530,36 +530,36 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 1
  291              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
  292              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h"
  293              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s 			page 10
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_it.c
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:19     .text.NMI_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:25     .text.NMI_Handler:00000000 NMI_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:42     .text.HardFault_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:48     .text.HardFault_Handler:00000000 HardFault_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:65     .text.MemManage_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:71     .text.MemManage_Handler:00000000 MemManage_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:88     .text.BusFault_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:94     .text.BusFault_Handler:00000000 BusFault_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:111    .text.UsageFault_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:117    .text.UsageFault_Handler:00000000 UsageFault_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:134    .text.SVC_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:140    .text.SVC_Handler:00000000 SVC_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:153    .text.DebugMon_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:159    .text.DebugMon_Handler:00000000 DebugMon_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:172    .text.PendSV_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:178    .text.PendSV_Handler:00000000 PendSV_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:191    .text.SysTick_Handler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:197    .text.SysTick_Handler:00000000 SysTick_Handler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:217    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:223    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 USB_LP_CAN1_RX0_IRQHandler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:236    .text.TIM2_IRQHandler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:242    .text.TIM2_IRQHandler:00000000 TIM2_IRQHandler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:255    .text.USART1_IRQHandler:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:261    .text.USART1_IRQHandler:00000000 USART1_IRQHandler
-C:\Users\Stanciu\AppData\Local\Temp\ccyUyUoA.s:281    .text.USART1_IRQHandler:0000000c $d
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:19     .text.NMI_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:25     .text.NMI_Handler:00000000 NMI_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:42     .text.HardFault_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:48     .text.HardFault_Handler:00000000 HardFault_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:65     .text.MemManage_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:71     .text.MemManage_Handler:00000000 MemManage_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:88     .text.BusFault_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:94     .text.BusFault_Handler:00000000 BusFault_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:111    .text.UsageFault_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:117    .text.UsageFault_Handler:00000000 UsageFault_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:134    .text.SVC_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:140    .text.SVC_Handler:00000000 SVC_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:153    .text.DebugMon_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:159    .text.DebugMon_Handler:00000000 DebugMon_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:172    .text.PendSV_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:178    .text.PendSV_Handler:00000000 PendSV_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:191    .text.SysTick_Handler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:197    .text.SysTick_Handler:00000000 SysTick_Handler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:217    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:223    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 USB_LP_CAN1_RX0_IRQHandler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:236    .text.TIM2_IRQHandler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:242    .text.TIM2_IRQHandler:00000000 TIM2_IRQHandler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:255    .text.USART1_IRQHandler:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:261    .text.USART1_IRQHandler:00000000 USART1_IRQHandler
+C:\Users\Stanciu\AppData\Local\Temp\ccwomRB4.s:281    .text.USART1_IRQHandler:0000000c $d
 
 UNDEFINED SYMBOLS
 HAL_IncTick
