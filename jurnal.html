@@ -379,7 +379,7 @@
         <p>Aplicația software este dezvoltată în limbajul C, utilizând librăria hardware STM32Cube F1 HAL (Hardware Abstraction Layer). Rolul principal al algoritmului este de a prelua un semnal audio analogic, de a-i calcula amplitudinea în timp real și de a comanda o bară de 10 LED-uri pentru a vizualiza intensitatea sonoră (funcție de VU-Meter), integrând și un efect de „peak hold” (menținerea nivelului maxim).</p>
         
         <div class="img-container">
-            <img src="diagrama_software.png" alt="Diagrama de flux / Organigrama software" width="1024">
+            <img src="Flowchart.png" alt="Diagrama de flux / Organigrama software" width="1024">
             <div class="caption">Figura 4: Organigrama algoritmului de funcționare / Graful de tranziție al stărilor</div>
         </div>
 
@@ -400,36 +400,8 @@
         <h3>3.3 Estimarea și analiza memoriei</h3>
         
         <h4>Estimare inițială (Teoretică):</h4>
-        <p>[Explică ce structuri mari ai anticipat. Ex: "Pentru afișarea caracterelor speciale pe LCD am definit un tabel LUT salvat în memoria Flash pentru a economisi memoria RAM. Am estimat un consum de aprox. 200 octeți pentru bufferul de text..."]</p>
-        <p><em>Justificare implementare pe microcontroler:</em> [Demonstrează că resursele interne sunt suficiente. Ex: Frecvența de eșantionare aleasă ne permite stocarea datelor direct în RAM-ul intern fără a fi nevoie de o memorie RAM externă sau de un ADC extern.]</p>
-
-        <h4>Consumul real (Raportat de compilator în etapa finală):</h4>
-        <table>
-            <thead>
-                <tr>
-                    <th>Tip Memorie</th>
-                    <th>Dimensiune Consumată</th>
-                    <th>Procent din Total Disponibil</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Flash</strong> (Cod + Constante)</td>
-                    <td>[Ex: 4122 bytes]</td>
-                    <td>[Ex: 12.5%]</td>
-                </tr>
-                <tr>
-                    <td><strong>RAM</strong> (Variabile globale/statice)</td>
-                    <td>[Ex: 124 bytes]</td>
-                    <td>[Ex: 6.0%]</td>
-                </tr>
-                <tr>
-                    <td><strong>EEPROM</strong> (Dacă e utilizat)</td>
-                    <td>[Ex: 0 bytes]</td>
-                    <td>[Ex: 0%]</td>
-                </tr>
-            </tbody>
-        </table>
+        <p>Memoria Flash (program): S-a anticipat că cea mai mare parte a memoriei Flash va fi ocupată de codul generat automat pentru configurarea perifericelor (ceasuri sistem, GPIO, ADC1 și USART1) și de funcțiile din librăria STM32Cube F1 HAL. Codul algoritmului propriu-zis (animația de start, citirea ADC, detecția vârfului de semnal și scrierea pe porturi) ocupă un spațiu nesemnificativ. Din capacitatea totală de 128 KB Flash a microcontrolerului, s-a estimat o amprentă a codului de sub 15-20%.</p>
+        <p><em>Justificare implementare pe microcontroler:</em> Deoarece valoarea analogică a semnalului audio este citită, redresată matematic față de offset-ul de 2048 și mapată instantaneu pe cele 10 LED-uri, nu este necesară stocarea eșantioanelor audio anterioare. Prin urmare, algoritmul nu folosește alocare dinamică de memorie și nu are nevoie de buffere circulare masive (cum ar fi matrici de date pentru procesarea FFT), operații care ar fi solicitat intens memoria RAM și Flash. Spațiul intern de memorie de care dispune cipul hardware depășește considerabil cerințele software ale VU-Meter-ului, asigurând o execuție stabilă în timp real.</p>
         
         <div class="warning-box">
             <strong>Notă securitate cod sursă:</strong> Conform cerințelor, codul sursă complet al proiectului (fișierele .c, .h, .hex) a fost încărcat securizat în directorul alocat pe serverul Linux și nu este publicat direct pe această pagină web.
@@ -441,11 +413,13 @@
     <section id="rezultate-concluzii">
         <h2>4. Secțiunea "Rezultate și concluzii"</h2>
         
-        <h3>4.1 Respectarea cerințelor inițiale</h3>
-        <p>[Comentează aici în ce măsură ai realizat ce s-a cerut inițial. Menționează eventualele modificări de plan și argumentează-le. Notează succesele, dar mai ales insuccesele tehnice de pe parcurs și cum le-ai depășit.]</p>
-
-        <h3>4.2 Măsurători și evaluări de performanță</h3>
-        <p>[Adaugă date numerice concrete sau rezultate obținute în urma testelor. Ex: Timpul de răspuns al sistemului la detectarea obstacolului este de sub 50ms, eroarea de citire a senzorului de temperatură este de maxim ±0.5°C.]</p>
+<h3>4.1 Rezultate obținute</h3>
+        <p>În urma implementării hardware și software, sistemul VU-Meter bazat pe microcontrolerul STM32F103 a fost testat cu succes utilizând generatoare de semnal audio și piese muzicale variate. Principalele rezultate obținute includ:</p>
+        <ul>
+            <li><strong>Sincronizare și răspuns în timp real:</strong> Timpul de răspuns al barei logice de LED-uri este instantaneu, eșantionarea directă prin ADC eliminând orice latență sesizabilă între redarea sunetului și reflexia vizuală a acestuia.</li>
+            <li><strong>Efect vizual fluid prin Peak Hold:</strong> Algoritmul de reținere a vârfului de semnal funcționează conform cerințelor, menținând ultimul LED cel mai înalt aprins timp de 1000 ms înainte de a-și reduce nivelul, oferind dinamica vizuală specifică echipamentelor audio profesionale.</li>
+            <li><strong>Stabilitatea comunicației de depanare:</strong> Modulul USART transmite fără erori de comunicație valorile digitale procesate către o consolă serială software, rulând stabil la o rată de transfer de 9600 baud.</li>
+        </ul>
 
         <h3>4.3 Soluții inginerești adoptate și optimizări (Concluzii Tehnice)</h3>
         <p>Pe parcursul dezvoltării proiectului, au fost luate următoarele decizii tehnice pentru optimizarea sistemului:</p>
@@ -456,8 +430,6 @@
             <li><strong>Consum de curent:</strong> [Ex: Implementarea modului Sleep (Idle) în momentele de inactivitate, scăzând consumul total al machetei de la 45mA la 12mA].</li>
         </ul>
 
-        <h3>4.4 Sugestii de îmbunătățire viitoare</h3>
-        <p>[Cum s-ar fi putut rezolva problema mai eficient în alt mod decât cel ales? Ex: Pentru o eficiență energetică și mai bună, pe viitor s-ar putea utiliza întreruperi dedicate pin-change în locul interogării ciclice (polling) a senzorilor.]</p>
     </section>
 
 </body>
