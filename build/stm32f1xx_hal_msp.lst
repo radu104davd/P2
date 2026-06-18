@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
   30:Core/Src/stm32f1xx_hal_msp.c **** 
   31:Core/Src/stm32f1xx_hal_msp.c **** /* USER CODE END TD */
   32:Core/Src/stm32f1xx_hal_msp.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 2
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 2
 
 
   33:Core/Src/stm32f1xx_hal_msp.c **** /* Private define ------------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
   41 0006 42F00102 		orr	r2, r2, #1
   42 000a 9A61     		str	r2, [r3, #24]
   43              		.loc 1 72 3 view .LVU4
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 3
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 3
 
 
   44 000c 9A69     		ldr	r2, [r3, #24]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
   85              		.cfi_def_cfa_offset 0
   86              		@ sp needed
   87 0038 7047     		bx	lr
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 4
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 4
 
 
   88              	.L4:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  127              	.LBB5:
  128              		.loc 1 101 5 view .LVU26
  129              		.loc 1 101 5 view .LVU27
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 5
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 5
 
 
  130 000e 03F50433 		add	r3, r3, #135168
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  174              		.cfi_startproc
  175              		@ args = 0, pretend = 0, frame = 24
  176              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 6
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 6
 
 
  177              		.loc 1 113 1 is_stmt 0 view .LVU36
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  209              	.LCFI8:
  210              		.cfi_restore_state
  121:Core/Src/stm32f1xx_hal_msp.c ****     /**TIM2 GPIO Configuration
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 7
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 7
 
 
  211              		.loc 1 121 5 is_stmt 1 view .LVU43
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  252              	.LFE67:
  254              		.section	.text.HAL_TIM_Base_MspDeInit,"ax",%progbits
  255              		.align	1
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 8
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 8
 
 
  256              		.global	HAL_TIM_Base_MspDeInit
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  286              		.loc 1 150 5 is_stmt 1 view .LVU64
  287 000c 044A     		ldr	r2, .L22
  288 000e D369     		ldr	r3, [r2, #28]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 9
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 9
 
 
  289 0010 23F00103 		bic	r3, r3, #1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  333 0004 0023     		movs	r3, #0
  334 0006 0293     		str	r3, [sp, #8]
  335 0008 0393     		str	r3, [sp, #12]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 10
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 10
 
 
  336 000a 0493     		str	r3, [sp, #16]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  176:Core/Src/stm32f1xx_hal_msp.c **** 
  358              		.loc 1 176 5 is_stmt 1 view .LVU76
  359              	.LBB7:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 11
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 11
 
 
  176:Core/Src/stm32f1xx_hal_msp.c **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  185:Core/Src/stm32f1xx_hal_msp.c ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  398              		.loc 1 185 27 is_stmt 0 view .LVU93
  399 004c 0323     		movs	r3, #3
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 12
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 12
 
 
  400 004e 0593     		str	r3, [sp, #20]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  443              		.cfi_endproc
  444              	.LFE69:
  446              		.section	.text.HAL_UART_MspDeInit,"ax",%progbits
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 13
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 13
 
 
  447              		.align	1
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  229:Core/Src/stm32f1xx_hal_msp.c ****   /* USER CODE END USART1_MspDeInit 1 */
  230:Core/Src/stm32f1xx_hal_msp.c ****   }
  231:Core/Src/stm32f1xx_hal_msp.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 14
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 14
 
 
  232:Core/Src/stm32f1xx_hal_msp.c **** }
@@ -827,28 +827,28 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 1
  514              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h"
  515              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h"
  516              		.file 10 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h"
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s 			page 15
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s 			page 15
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_hal_msp.c
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:19     .text.HAL_MspInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:25     .text.HAL_MspInit:00000000 HAL_MspInit
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:91     .text.HAL_MspInit:0000003c $d
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:97     .text.HAL_TIM_Base_MspInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:103    .text.HAL_TIM_Base_MspInit:00000000 HAL_TIM_Base_MspInit
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:164    .text.HAL_TIM_MspPostInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:170    .text.HAL_TIM_MspPostInit:00000000 HAL_TIM_MspPostInit
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:250    .text.HAL_TIM_MspPostInit:00000044 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:255    .text.HAL_TIM_Base_MspDeInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:261    .text.HAL_TIM_Base_MspDeInit:00000000 HAL_TIM_Base_MspDeInit
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:302    .text.HAL_TIM_Base_MspDeInit:00000020 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:307    .text.HAL_UART_MspInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:313    .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:441    .text.HAL_UART_MspInit:00000084 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:447    .text.HAL_UART_MspDeInit:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:453    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
-C:\Users\Stanciu\AppData\Local\Temp\ccEzQwLU.s:500    .text.HAL_UART_MspDeInit:00000028 $d
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:19     .text.HAL_MspInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:25     .text.HAL_MspInit:00000000 HAL_MspInit
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:91     .text.HAL_MspInit:0000003c $d
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:97     .text.HAL_TIM_Base_MspInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:103    .text.HAL_TIM_Base_MspInit:00000000 HAL_TIM_Base_MspInit
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:164    .text.HAL_TIM_MspPostInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:170    .text.HAL_TIM_MspPostInit:00000000 HAL_TIM_MspPostInit
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:250    .text.HAL_TIM_MspPostInit:00000044 $d
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:255    .text.HAL_TIM_Base_MspDeInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:261    .text.HAL_TIM_Base_MspDeInit:00000000 HAL_TIM_Base_MspDeInit
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:302    .text.HAL_TIM_Base_MspDeInit:00000020 $d
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:307    .text.HAL_UART_MspInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:313    .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:441    .text.HAL_UART_MspInit:00000084 $d
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:447    .text.HAL_UART_MspDeInit:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:453    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
+C:\Users\Stanciu\AppData\Local\Temp\cc1RhECg.s:500    .text.HAL_UART_MspDeInit:00000028 $d
 
 UNDEFINED SYMBOLS
 HAL_NVIC_SetPriority

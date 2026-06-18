@@ -31,7 +31,7 @@ uint16_t audio_center = 2048;
 uint16_t amplitude = 0;
 
 uint8_t led_level = 0;
-uint8_t displayed_level = 0;
+uint8_t peak_level = 0;
 
 uint32_t hold_time = 1000;
 uint32_t last_peak_time = 0;
@@ -83,20 +83,21 @@ int main(void)
             led_level = NUM_LEDS;
         }
 
-        if (led_level > displayed_level)
+        if (led_level > peak_level)
         {
-            displayed_level = led_level;
+            peak_level = led_level;
             last_peak_time = HAL_GetTick();
         }
 
         if ((HAL_GetTick() - last_peak_time) > hold_time)
         {
-            displayed_level = led_level;
+            peak_level = led_level;
+            last_peak_time = HAL_GetTick();
         }
 
         for (uint8_t i = 0; i < NUM_LEDS; i++)
         {
-            if (i < displayed_level)
+            if ((i < led_level) || (peak_level > 0 && i == peak_level-1))
             {
                 HAL_GPIO_WritePin(ports[i], pins[i], GPIO_PIN_SET);
             }

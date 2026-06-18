@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
   30:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** /** @defgroup USBD_REQ
   31:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   * @brief USB standard requests module
   32:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   * @{
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 2
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 2
 
 
   33:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
   87:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                            USBD_SetupReqTypedef *req);
   88:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
   89:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** static void USBD_SetFeature(USBD_HandleTypeDef *pdev,
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 3
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 3
 
 
   90:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                             USBD_SetupReqTypedef *req);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  144:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  145:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         case USB_REQ_GET_STATUS:
  146:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           USBD_GetStatus(pdev, req);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 4
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 4
 
 
  147:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           break;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  201:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             }
  202:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
  203:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           else
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 5
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 5
 
 
  204:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  258:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
  259:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             case USBD_STATE_ADDRESSED:
  260:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               if ((ep_addr != 0x00U) && (ep_addr != 0x80U))
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 6
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 6
 
 
  261:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  315:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
  316:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  317:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             default:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 7
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 7
 
 
  318:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               USBD_CtlError(pdev, req);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  372:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               }
  373:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  374:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               USBD_CtlSendData(pdev, (uint8_t *)(void *)&pep->status, 2U);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 8
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 8
 
 
  375:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  429:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
  430:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  431:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     case USB_DESC_TYPE_CONFIGURATION:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 9
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 9
 
 
  432:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       if (pdev->dev_speed == USBD_SPEED_HIGH)
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  486:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             pbuf = pdev->pDesc->GetSerialStrDescriptor(pdev->dev_speed, &len);
  487:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
  488:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           else
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 10
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 10
 
 
  489:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  543:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       else
  544:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       {
  545:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         USBD_CtlError(pdev, req);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 11
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 11
 
 
  546:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         err++;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  600:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   if ((req->wIndex == 0U) && (req->wLength == 0U) && (req->wValue < 128U))
  601:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
  602:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     dev_addr = (uint8_t)(req->wValue) & 0x7FU;
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 12
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 12
 
 
  603:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  657:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
  658:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             USBD_CtlError(pdev, req);
  659:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             return;
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 13
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 13
 
 
  660:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  714:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   if (req->wLength != 1U)
  715:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
  716:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     USBD_CtlError(pdev, req);
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 14
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 14
 
 
  717:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  771:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
  772:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  773:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     default:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 15
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 15
 
 
  774:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       USBD_CtlError(pdev, req);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  828:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** *         Copy buffer into setup structure
  829:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** * @param  pdev: device instance
  830:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** * @param  req: usb request
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 16
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 16
 
 
  831:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** * @retval None
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  885:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  886:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** /**
  887:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   * @brief  USBD_GetLen
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 17
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 17
 
 
  888:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   *         return the string length
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
   62              		.loc 1 902 3 is_stmt 1 view .LVU14
  903:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** }
   63              		.loc 1 903 1 is_stmt 0 view .LVU15
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 18
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 18
 
 
   64 0012 7047     		bx	lr
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  111              		.align	1
  112              		.global	USBD_ParseSetupRequest
  113              		.syntax unified
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 19
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 19
 
 
  114              		.thumb
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  154 0024 C380     		strh	r3, [r0, #6]	@ movhi
  842:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  155              		.loc 1 842 1 view .LVU41
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 20
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 20
 
 
  156 0026 7047     		bx	lr
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  407:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint16_t len = 0U;
  207              		.loc 1 407 1 is_stmt 1 view -0
  208              		.cfi_startproc
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 21
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 21
 
 
  209              		@ args = 0, pretend = 0, frame = 8
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  252              		.loc 1 428 18 is_stmt 0 view .LVU60
  253 0026 D0F8B032 		ldr	r3, [r0, #688]
  428:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 22
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 22
 
 
  254              		.loc 1 428 25 view .LVU61
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  295              	.LCFI5:
  296              		.cfi_restore_state
  432:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 23
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 23
 
 
  297              		.loc 1 432 7 is_stmt 1 view .LVU75
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  334 0070 0223     		movs	r3, #2
  335 0072 4370     		strb	r3, [r0, #1]
  569:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 24
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 24
 
 
  336              		.loc 1 569 3 is_stmt 1 view .LVU93
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  378              	.LVL33:
  455:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
  379              		.loc 1 455 13 view .LVU106
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 25
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 25
 
 
  569:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  418 00c0 23B1     		cbz	r3, .L32
  474:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
  419              		.loc 1 474 13 is_stmt 1 view .LVU123
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 26
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 26
 
 
  474:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  459              		.loc 1 490 13 view .LVU138
  460 00e6 2146     		mov	r1, r4
  461 00e8 FFF7FEFF 		bl	USBD_CtlError
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 27
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 27
 
 
  462              	.LVL48:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  500 010c 9B69     		ldr	r3, [r3, #24]
  508:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
  501              		.loc 1 508 14 view .LVU155
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 28
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 28
 
 
  502 010e 23B1     		cbz	r3, .L35
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  541:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
  541              		.loc 1 541 28 view .LVU171
  542 0132 5B6B     		ldr	r3, [r3, #52]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 29
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 29
 
 
  541:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  581 0156 4370     		strb	r3, [r0, #1]
  569:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
  582              		.loc 1 569 3 is_stmt 1 view .LVU188
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 30
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 30
 
 
  583 0158 6CE7     		b	.L19
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  622 017c 61E7     		b	.L39
  623              	.L43:
  583:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 31
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 31
 
 
  624              		.loc 1 583 7 is_stmt 1 view .LVU204
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  669 0010 19D8     		bhi	.L45
  602:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  670              		.loc 1 602 5 is_stmt 1 view .LVU216
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 32
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 32
 
 
  602:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  709              		.loc 1 620 9 is_stmt 1 view .LVU232
  620:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
  710              		.loc 1 620 25 is_stmt 0 view .LVU233
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 33
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 33
 
 
  711 003e 0123     		movs	r3, #1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  757              		.loc 1 641 10 view .LVU243
  758 0008 284B     		ldr	r3, .L68
  759 000a 1970     		strb	r1, [r3]
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 34
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 34
 
 
  643:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  800 0038 4160     		str	r1, [r0, #4]
  655:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           if (USBD_SetClassConfig(pdev, cfgidx) == USBD_FAIL)
  801              		.loc 1 655 11 is_stmt 1 view .LVU258
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 35
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 35
 
 
  655:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           if (USBD_SetClassConfig(pdev, cfgidx) == USBD_FAIL)
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  842 0066 1DD0     		beq	.L60
  680:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  843              		.loc 1 680 11 is_stmt 1 view .LVU273
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 36
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 36
 
 
  844 0068 D9B2     		uxtb	r1, r3
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  885 009c 2046     		mov	r0, r4
  886 009e FFF7FEFF 		bl	USBD_CtlError
  887              	.LVL106:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 37
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 37
 
 
  687:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  933 000c 022B     		cmp	r3, #2
  934 000e 09D9     		bls	.L79
  935 0010 032B     		cmp	r3, #3
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 38
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 38
 
 
  936 0012 11D1     		bne	.L75
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  977              		.loc 1 734 9 view .LVU310
  737:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  978              		.loc 1 737 1 is_stmt 0 view .LVU311
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 39
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 39
 
 
  979 003c F1E7     		b	.L70
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1022              		.loc 1 765 10 view .LVU324
  1023 001a 0BB1     		cbz	r3, .L84
  767:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 40
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 40
 
 
  1024              		.loc 1 767 9 is_stmt 1 view .LVU325
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1069              		@ args = 0, pretend = 0, frame = 0
  1070              		@ frame_needed = 0, uses_anonymous_args = 0
  807:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   switch (pdev->dev_state)
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 41
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 41
 
 
  1071              		.loc 1 807 1 is_stmt 0 view .LVU337
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1111              		.loc 1 824 1 is_stmt 0 view .LVU351
  1112 0024 F5E7     		b	.L87
  1113              		.cfi_endproc
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 42
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 42
 
 
  1114              	.LFE77:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1159 001c 9B68     		ldr	r3, [r3, #8]
  123:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
  1160              		.loc 1 123 7 view .LVU363
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 43
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 43
 
 
  1161 001e 9847     		blx	r3
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  138:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           break;
  1205              		.loc 1 138 11 view .LVU374
  1206 0044 FFF7FEFF 		bl	USBD_SetConfig
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 44
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 44
 
 
  1207              	.LVL142:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1251              		.syntax unified
  1252              		.thumb
  1253              		.thumb_func
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 45
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 45
 
 
  1255              	USBD_StdItfReq:
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1297 001e 95F89C32 		ldrb	r3, [r5, #668]	@ zero_extendqisi2
  188:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       {
  1298              		.loc 1 188 7 view .LVU398
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 46
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 46
 
 
  1299 0022 013B     		subs	r3, r3, #1
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1338              	.LVL162:
  1339              	.L112:
  205:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 47
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 47
 
 
  1340              		.loc 1 205 13 is_stmt 1 view .LVU414
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1388 0002 0546     		mov	r5, r0
  233:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint8_t   ep_addr;
  1389              		.loc 1 233 3 is_stmt 1 view .LVU423
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 48
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 48
 
 
  234:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   USBD_StatusTypeDef ret = USBD_OK;
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1428 0028 9847     		blx	r3
  1429              	.LVL177:
  243:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 49
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 49
 
 
  1430              		.loc 1 243 7 is_stmt 1 view .LVU440
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1470              		.loc 1 249 35 view .LVU454
  1471 0050 0446     		mov	r4, r0
  1472              	.LVL184:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 50
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 50
 
 
  251:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1513              	.LVL192:
  262:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                 USBD_LL_StallEP(pdev, 0x80U);
  1514              		.loc 1 262 17 is_stmt 0 view .LVU469
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 51
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 51
 
 
  1515 0076 FFF7FEFF 		bl	USBD_LL_StallEP
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  277:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                 }
  1556              		.loc 1 277 19 view .LVU483
  1557 00a0 F7E7     		b	.L129
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 52
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 52
 
 
  1558              	.LVL201:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  298:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               }
  1599              		.loc 1 298 17 is_stmt 1 view .LVU497
  1600 00c8 8021     		movs	r1, #128
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 53
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 53
 
 
  1601 00ca 2846     		mov	r0, r5
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1643 00f6 0328     		cmp	r0, #3
  1644 00f8 29D0     		beq	.L136
  378:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 54
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 54
 
 
  1645              		.loc 1 378 15 is_stmt 1 view .LVU510
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1685              	.LVL224:
  337:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
  1686              		.loc 1 337 15 is_stmt 1 view .LVU525
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 55
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 55
 
 
  1687 0126 0222     		movs	r2, #2
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  351:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                 {
  1728              		.loc 1 351 17 is_stmt 1 view .LVU539
  351:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                 {
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 56
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 56
 
 
  1729              		.loc 1 351 42 is_stmt 0 view .LVU540
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1771              	.LVL234:
  375:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  1772              		.loc 1 375 15 view .LVU553
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 57
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 57
 
 
  394:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** }
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1812              		.loc 1 358 73 discriminator 1 view .LVU568
  1813 01ba 02F07F03 		and	r3, r2, #127
  1814              	.LVL241:
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 58
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 58
 
 
  358:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                     &pdev->ep_out[ep_addr & 0x7FU];
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1861              		@ frame_needed = 0, uses_anonymous_args = 0
  870:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  1862              		.loc 1 870 3 view .LVU579
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 59
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 59
 
 
  872:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  880:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       unicode[idx++] =  0U;
  1903              		.loc 1 880 7 is_stmt 1 view .LVU594
  880:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       unicode[idx++] =  0U;
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 60
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 60
 
 
  1904              		.loc 1 880 29 is_stmt 0 view .LVU595
@@ -3598,54 +3598,54 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 1
  1951              		.file 2 "D:\\CubeCLT\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin/../lib/gcc/arm-none-eabi/14.3.
  1952              		.file 3 "D:\\CubeCLT\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin/../lib/gcc/arm-none-eabi/14.3.
  1953              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 61
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 61
 
 
  1954              		.file 5 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
  1955              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h"
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s 			page 62
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s 			page 62
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_ctlreq.c
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:19     .text.USBD_GetLen:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:24     .text.USBD_GetLen:00000000 USBD_GetLen
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:69     .text.USBD_SetFeature:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:74     .text.USBD_SetFeature:00000000 USBD_SetFeature
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:111    .text.USBD_ParseSetupRequest:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:117    .text.USBD_ParseSetupRequest:00000000 USBD_ParseSetupRequest
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:161    .text.USBD_CtlError:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:167    .text.USBD_CtlError:00000000 USBD_CtlError
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:199    .text.USBD_GetDescriptor:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:204    .text.USBD_GetDescriptor:00000000 USBD_GetDescriptor
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:242    .text.USBD_GetDescriptor:0000001e $d
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:348    .text.USBD_GetDescriptor:00000080 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:354    .text.USBD_GetDescriptor:00000086 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:634    .text.USBD_SetAddress:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:639    .text.USBD_SetAddress:00000000 USBD_SetAddress
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:730    .text.USBD_SetConfig:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:735    .text.USBD_SetConfig:00000000 USBD_SetConfig
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:900    .text.USBD_SetConfig:000000ac $d
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1947   .bss.cfgidx.0:00000000 cfgidx.0
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:905    .text.USBD_GetConfig:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:910    .text.USBD_GetConfig:00000000 USBD_GetConfig
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:984    .text.USBD_GetStatus:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:989    .text.USBD_GetStatus:00000000 USBD_GetStatus
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1059   .text.USBD_ClrFeature:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1064   .text.USBD_ClrFeature:00000000 USBD_ClrFeature
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1117   .text.USBD_StdDevReq:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1123   .text.USBD_StdDevReq:00000000 USBD_StdDevReq
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1179   .text.USBD_StdDevReq:0000002e $d
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1189   .text.USBD_StdDevReq:00000038 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1249   .text.USBD_StdItfReq:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1255   .text.USBD_StdItfReq:00000000 USBD_StdItfReq
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1367   .text.USBD_StdEPReq:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1373   .text.USBD_StdEPReq:00000000 USBD_StdEPReq
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1849   .text.USBD_GetString:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1855   .text.USBD_GetString:00000000 USBD_GetString
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:1948   .bss.cfgidx.0:00000000 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:249    .text.USBD_GetDescriptor:00000025 $d
-C:\Users\Stanciu\AppData\Local\Temp\ccCY6ibe.s:249    .text.USBD_GetDescriptor:00000026 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:19     .text.USBD_GetLen:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:24     .text.USBD_GetLen:00000000 USBD_GetLen
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:69     .text.USBD_SetFeature:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:74     .text.USBD_SetFeature:00000000 USBD_SetFeature
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:111    .text.USBD_ParseSetupRequest:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:117    .text.USBD_ParseSetupRequest:00000000 USBD_ParseSetupRequest
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:161    .text.USBD_CtlError:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:167    .text.USBD_CtlError:00000000 USBD_CtlError
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:199    .text.USBD_GetDescriptor:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:204    .text.USBD_GetDescriptor:00000000 USBD_GetDescriptor
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:242    .text.USBD_GetDescriptor:0000001e $d
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:348    .text.USBD_GetDescriptor:00000080 $d
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:354    .text.USBD_GetDescriptor:00000086 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:634    .text.USBD_SetAddress:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:639    .text.USBD_SetAddress:00000000 USBD_SetAddress
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:730    .text.USBD_SetConfig:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:735    .text.USBD_SetConfig:00000000 USBD_SetConfig
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:900    .text.USBD_SetConfig:000000ac $d
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1947   .bss.cfgidx.0:00000000 cfgidx.0
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:905    .text.USBD_GetConfig:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:910    .text.USBD_GetConfig:00000000 USBD_GetConfig
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:984    .text.USBD_GetStatus:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:989    .text.USBD_GetStatus:00000000 USBD_GetStatus
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1059   .text.USBD_ClrFeature:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1064   .text.USBD_ClrFeature:00000000 USBD_ClrFeature
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1117   .text.USBD_StdDevReq:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1123   .text.USBD_StdDevReq:00000000 USBD_StdDevReq
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1179   .text.USBD_StdDevReq:0000002e $d
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1189   .text.USBD_StdDevReq:00000038 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1249   .text.USBD_StdItfReq:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1255   .text.USBD_StdItfReq:00000000 USBD_StdItfReq
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1367   .text.USBD_StdEPReq:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1373   .text.USBD_StdEPReq:00000000 USBD_StdEPReq
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1849   .text.USBD_GetString:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1855   .text.USBD_GetString:00000000 USBD_GetString
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:1948   .bss.cfgidx.0:00000000 $d
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:249    .text.USBD_GetDescriptor:00000025 $d
+C:\Users\Stanciu\AppData\Local\Temp\cchlIhvj.s:249    .text.USBD_GetDescriptor:00000026 $t
 
 UNDEFINED SYMBOLS
 USBD_CtlSendStatus

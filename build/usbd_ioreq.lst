@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
   29:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c ****   * @brief control I/O requests module
   30:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c ****   * @{
   31:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c ****   */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 2
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 2
 
 
   32:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
   86:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** */
   87:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** USBD_StatusTypeDef USBD_CtlSendData(USBD_HandleTypeDef *pdev,
   88:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c ****                                     uint8_t *pbuf, uint16_t len)
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 3
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 3
 
 
   89:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** {
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
   73              	.LVL4:
   74              	.LFB69:
  100:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** 
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 4
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 4
 
 
  101:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** /**
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
  120:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** *         receive data on the ctl pipe
  121:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** * @param  pdev: device instance
  122:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** * @param  buff: pointer to data buffer
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 5
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 5
 
 
  123:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** * @param  len: length of data to be received
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
  151              		.global	USBD_CtlContinueRx
  152              		.syntax unified
  153              		.thumb
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 6
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 6
 
 
  154              		.thumb_func
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
  195              	.LFB72:
  155:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** 
  156:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** /**
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 7
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 7
 
 
  157:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** * @brief  USBD_CtlSendStatus
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
  176:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** * @param  pdev: device instance
  177:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** * @retval status
  178:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** */
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 8
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 8
 
 
  179:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** USBD_StatusTypeDef USBD_CtlReceiveStatus(USBD_HandleTypeDef *pdev)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
  198:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c **** {
  270              		.loc 1 198 1 is_stmt 1 view -0
  271              		.cfi_startproc
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 9
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 9
 
 
  272              		@ args = 0, pretend = 0, frame = 0
@@ -505,25 +505,25 @@ ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 1
  292              		.file 3 "D:\\CubeCLT\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin/../lib/gcc/arm-none-eabi/14.3.
  293              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
  294              		.file 5 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
-ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s 			page 10
+ARM GAS  C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_ioreq.c
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:19     .text.USBD_CtlSendData:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:25     .text.USBD_CtlSendData:00000000 USBD_CtlSendData
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:66     .text.USBD_CtlContinueSendData:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:72     .text.USBD_CtlContinueSendData:00000000 USBD_CtlContinueSendData
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:103    .text.USBD_CtlPrepareRx:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:109    .text.USBD_CtlPrepareRx:00000000 USBD_CtlPrepareRx
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:150    .text.USBD_CtlContinueRx:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:156    .text.USBD_CtlContinueRx:00000000 USBD_CtlContinueRx
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:187    .text.USBD_CtlSendStatus:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:193    .text.USBD_CtlSendStatus:00000000 USBD_CtlSendStatus
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:224    .text.USBD_CtlReceiveStatus:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:230    .text.USBD_CtlReceiveStatus:00000000 USBD_CtlReceiveStatus
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:261    .text.USBD_GetRxCount:00000000 $t
-C:\Users\Stanciu\AppData\Local\Temp\ccmq2fTL.s:267    .text.USBD_GetRxCount:00000000 USBD_GetRxCount
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:19     .text.USBD_CtlSendData:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:25     .text.USBD_CtlSendData:00000000 USBD_CtlSendData
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:66     .text.USBD_CtlContinueSendData:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:72     .text.USBD_CtlContinueSendData:00000000 USBD_CtlContinueSendData
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:103    .text.USBD_CtlPrepareRx:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:109    .text.USBD_CtlPrepareRx:00000000 USBD_CtlPrepareRx
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:150    .text.USBD_CtlContinueRx:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:156    .text.USBD_CtlContinueRx:00000000 USBD_CtlContinueRx
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:187    .text.USBD_CtlSendStatus:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:193    .text.USBD_CtlSendStatus:00000000 USBD_CtlSendStatus
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:224    .text.USBD_CtlReceiveStatus:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:230    .text.USBD_CtlReceiveStatus:00000000 USBD_CtlReceiveStatus
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:261    .text.USBD_GetRxCount:00000000 $t
+C:\Users\Stanciu\AppData\Local\Temp\cctNGcNX.s:267    .text.USBD_GetRxCount:00000000 USBD_GetRxCount
 
 UNDEFINED SYMBOLS
 USBD_LL_Transmit
