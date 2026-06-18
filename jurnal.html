@@ -79,6 +79,20 @@
             padding: 15px;
             margin: 20px 0;
         }
+        .highlight-list {
+            margin: 10px 0 0 22px;
+            padding-left: 10px;
+        }
+        .highlight-list li {
+            margin: 10px 0;
+            padding: 8px 10px;
+            background: #eef5ff;
+            border-left: 4px solid #0056b3;
+            }
+            .emphasized-list {
+                margin: 10px 0 0 24px;
+                padding-left: 8px;
+        }
     </style>
 </head>
 <body>
@@ -123,83 +137,200 @@
         <p>Dispozitivul este un indicator de nivel audio (VU-Meter) realizat în jurul microcontrolerului pe 32 de biți *STM32F103C8T6 (Blue Pill)*. Sistemul capturează semnalul acustic din mediul înconjurător prin intermediul unui microfon analogic și afișează intensitatea volumului în timp real pe o bară logica compusă din 10 LED-uri.</p>
         
         <div class="img-container">
-            <img src="schema_electrica.png" alt="Schema electrică a proiectului" width="1024">
+            <img src="schema_electrica.jpeg" alt="Schema electrică a proiectului" width="1024">
             <div class="caption">Figura 1: Schema electrică completă a circuitului (proiectare proprie CAD)</div>
         </div>
 
-        <h3>2.2 Lista completă de materiale (BOM - Bill of Materials)</h3>
+<h3>2.2 Lista completă de materiale (BOM - Bill of Materials)</h3>
         <table>
             <thead>
                 <tr>
                     <th>Nr. Crt.</th>
                     <th>Denumire Componentă</th>
                     <th>Valoare / Model</th>
-                    <th>Descriere</th>
+                    <th>Capsulă</th>
+                    <th>Descriere / Rol în Proiect</th>
+                    <th>Furnizor</th>
                 </tr>
             </thead>
             <tbody>
-    <tr>
-        <td>1</td>
-        <td>Microcontroller</td>
-        <td>STM32F103C8T6</td>
-        <td>Procesează semnalul primit de la microfon prin intermediul convertorului analog-digital (ADC) intern și controlează dinamic pinii de ieșire pentru LED-uri.</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Microfon</td>
-        <td>Hama MIC-P35 Allround</td>
-        <td>Capsulă de tip electret cu sensibilitate ridicată, responsabilă de preluarea undelor sonore și transformarea lor în semnale electrice de mică amplitudinex</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Breakout CJMCU-TRRS</td>
-        <td>XDQPGV_jack_module_3.5</td>
-        <td>Modul de conexiune mecanică și electrică ce permite cuplarea fermă și curată a mufei Jack de 3.5mm a microfonului pe breadboard.</td>
-    </tr>
-    
-    <tr>
-        <td>4</td>
-        <td>Fir Colorat Tată - Tată (20 cm)</td>
-        <td>0104210000001754</td>
-        <td>Set de 7 fire elastice utilizate pentru realizarea conexiunilor electrice flexibile între pinii microcontrolerului, periferice și liniile de alimentare de pe breadboard.</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>LED RGB cu Anod Comun</td>
-        <td>0104210000005752</td>
-        <td>Set de 10 diode luminoase folosite pentru afișarea dinamică a volumului sau a stărilor sistemului prin combinarea culorilor de bază (Roșu, Verde, Albastru).</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>Convertor USB la UART CH340G</td>
-        <td>0104110000091031</td>
-        <td>Modul de interfațare ce permite depanarea și comunicația serială (transmisia de date) între microcontrolerul STM32 și calculator.</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>Condensator electrolitic 1uF 50V</td>
-        <td>UDOZCE_KS105M050C07RR0VH2FP0_CPE</td>
-        <td>Conectat în serie pe traseul audio; blochează componenta de curent continuu (DC Offset) și lasă doar semnalul audio alternativ (AC) să treacă spre pinul ADC.</td>
-    </tr>
-    <tr>
-        <td>8</td>
-        <td>Rezistor 0.25W 220Ω</td>
-        <td>DGDLZO_CRI/4W-220R-5pc-ST52</td>
-        <td>Set de 10 rezistențe folosite pentru limitarea curentului prin canalele LED-urilor RGB, prevenind distrugerea acestora și suprasolicitarea pinilor microcontrolerului.</td>
-    </tr>
-    <tr>
-        <td>9</td>
-        <td>Rezistor 0.25W 4.7KΩ</td>
-        <td>0104210000007381</td>
-        <td>Rezistență utilizată ca „pull-up” pentru circuitul de alimentare (Bias), esențială pentru polarizarea corectă a capsulei microfonului electret.</td>
-    </tr>
-    <tr>
-        <td>10</td>
-        <td>Rezistor 0.25W 10KΩ</td>
-        <td>01042100000010039</td>
-        <td>Set de 2 rezistențe egale montate în configurație de divizor de tensiune pentru a ridica referința semnalului audio (Bias la 1.65V), permițând citirea alternanțelor negative de către ADC.</td>
-    </tr>
-</tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Condensatori (C1, C3, C4, C5, C6, C15)</td>
+                    <td>100nF</td>
+                    <td>0805</td>
+                    <td>Decuplare alimentare subansamble / Filtrare zgomot de înaltă frecvență.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Condensatori (C2, C12)</td>
+                    <td>10uF</td>
+                    <td>Tantal Case B</td>
+                    <td>Filtrare stabilizator de tensiune (filtrare la intrarea/ieșirea sursei).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Condensatori (C8, C9)</td>
+                    <td>20pF</td>
+                    <td>0805</td>
+                    <td>Condensatori auxiliari pentru rezonatorul cuarț de 8MHz.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rezistoare (R1, R2, R3, R11)</td>
+                    <td>220R</td>
+                    <td>0805</td>
+                    <td>Limitare curent pentru LED-urile onboard.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Rezistoare (R4, R12)</td>
+                    <td>100K</td>
+                    <td>0805</td>
+                    <td>Rezistențe de pull-up/pull-down pentru stabilirea nivelurilor logice fixe.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Rezistor (R5)</td>
+                    <td>10K</td>
+                    <td>0805</td>
+                    <td>Rezistență de control / Circuitul de Reset hardware.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Rezistor (R6)</td>
+                    <td>1M</td>
+                    <td>0805</td>
+                    <td>Rezistență de polarizare în paralel cu cristalul de cuarț.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Rezistor (R7)</td>
+                    <td>1.5K</td>
+                    <td>0805</td>
+                    <td>Configurare și activare linie USB (Pull-up pe linia de date D+).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Rezistoare (R8, R9)</td>
+                    <td>20R</td>
+                    <td>0805</td>
+                    <td>Protecție și adaptare de impedanță pentru liniile de date USB.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Rezistor (R10)</td>
+                    <td>10R</td>
+                    <td>0805</td>
+                    <td>Filtru de rețea (RC) pentru alimentarea analogică curată a ADC-ului.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Butoane (SW1, SW2, SW3)</td>
+                    <td>Buton</td>
+                    <td>THT 6mm</td>
+                    <td>Butoane pentru control digital și Reset fizic al sistemului.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Cristal de cuarț (Y1)</td>
+                    <td>8MHz</td>
+                    <td>HC-49 Vertical</td>
+                    <td>Oscilator de tact extern principal pentru generarea frecvenței MCU (prin PLL).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Microcontroller (U1)</td>
+                    <td>STM32F103CBT6</td>
+                    <td>LQFP-48</td>
+                    <td>Microcontrolerul principal pe 32 de biți (Nucleul algoritmului VU-Meter).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Stabilizator tensiune (U2)</td>
+                    <td>LM1117S-3.3</td>
+                    <td>SOT-223</td>
+                    <td>Regulator LDO pentru stabilizarea tensiunii de la 5V la 3.3V necesari MCU.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>LED RGB (D1)</td>
+                    <td>LED RGB</td>
+                    <td>5050-6</td>
+                    <td>Indicator optic multifunctional onboard (status sistem).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>LED Verde (D4)</td>
+                    <td>LED Verde</td>
+                    <td>THT 3mm</td>
+                    <td>Indicator prezență tensiune alimentare (Power LED).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Conector Programare (J1)</td>
+                    <td>SWDIO+Serial</td>
+                    <td>IDC-2x04</td>
+                    <td>Interfață fizică pentru depanare (ST-Link) și comunicație serială.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Conector USB (J2)</td>
+                    <td>USB Micro-B</td>
+                    <td>Micro-B SMD</td>
+                    <td>Conector fizic pentru alimentare placă și comunicație USB.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Barete Pini (J3, J4, J5, J6)</td>
+                    <td>Conn 1x08</td>
+                    <td>Pini 2.54mm</td>
+                    <td>Barete tată pentru extensia pinilor GPIO (ieșiri către LED-urile VU-Meter).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Baretă Magistrală (J7)</td>
+                    <td>Conn 1x06</td>
+                    <td>Pini 2.54mm</td>
+                    <td>Barete pini pentru magistrala dedicată perifericelor externe.</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Baretă Boot (J8)</td>
+                    <td>Conn 2x03</td>
+                    <td>Pini 2.54mm</td>
+                    <td>Barete și jumperi pentru configurarea modului de Boot (Flash vs System).</td>
+                    <td>UPB</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Soclu Extensie (J11)</td>
+                    <td>Mama 1x08</td>
+                    <td>THT</td>
+                    <td>Soclu mamă destinat extensiilor hardware (ex. modul microfon).</td>
+                    <td>UPB</td>
+                </tr>
+            </tbody>
         </table>
 
         <h3>2.3 Fotografii ale machetei (Evoluția asamblării)</h3>
@@ -244,10 +375,8 @@
 
     <section id="descriere-software">
         <h2>3. Secțiunea "Descrierea software" (DS)</h2>
-        <p><em>Trebuie completată înainte de a 2-a verificare.</em></p>
-        
         <h3>3.1 Structura logică și diagrame</h3>
-        <p>[Include aici explicații despre organizarea codului. Poți adăuga organigrame (flowcharts) sau grafuri de tranziție de stări dacă sistemul tău e implementat ca un Automat de Stări (FSM).]</p>
+        <p>Aplicația software este dezvoltată în limbajul C, utilizând librăria hardware STM32Cube F1 HAL (Hardware Abstraction Layer). Rolul principal al algoritmului este de a prelua un semnal audio analogic, de a-i calcula amplitudinea în timp real și de a comanda o bară de 10 LED-uri pentru a vizualiza intensitatea sonoră (funcție de VU-Meter), integrând și un efect de „peak hold” (menținerea nivelului maxim).</p>
         
         <div class="img-container">
             <img src="diagrama_software.png" alt="Diagrama de flux / Organigrama software" width="1024">
@@ -257,10 +386,15 @@
         <h3>3.2 Documentarea resurselor hardware utilizate</h3>
         <p>Pentru implementarea temei, au fost configurate și utilizate următoarele resurse interne ale procesorului AVR:</p>
         <ul>
-            <li><strong>Porturi I/O:</strong> [Ex: Portul A configurat ca intrare pentru senzori, Portul B ca ieșire pentru LED-uri].</li>
-            <li><strong>Canale ADC:</strong> [Ex: Canalul PA0 utilizat pentru citirea senzorului analogic, tensiune de referință setată la AVCC (5V)].</li>
-            <li><strong>Timere:</strong> [Ex: Timer 1 configurat în mod Fast PWM pe 8 biți pentru controlul intensității, cu un prescaler de 64].</li>
-            <li><strong>Întreruperi:</strong> [Ex: Întreruperea externă INT0 activată pe front căzător pentru butonul de Panică].</li>
+            <li><strong>Porturi I/O:</strong>
+                <ol class="emphasized-list">
+                    <li><span class="list-number"></span> <strong>Portul B (GPIOB):</strong> Pinii PB10, PB11, PB12, PB13, PB14, PB15 sunt configurați ca ieșiri digitale de tip Push-Pull, cu viteză redusă (Low Speed) și fără rezistențe interne de pull-up/pull-down, fiind utilizați pentru primele 6 LED-uri ale VU-Meter-ului.</li>
+                    <li><span class="list-number"></span> <strong>Portul A (GPIOA):</strong> Pinii PA1, PA2, PA3, PA4 sunt configurați similar ca ieșiri digitale pentru restul de 4 LED-uri ale barei logice. Pinul PA0 este configurat în mod analogic (Analog Mode) pentru a servi drept intrare pentru semnalul audio.</li>
+                    <li><span class="list-number"></span> <strong>Pinii de depanare:</strong> Porturile PA9 (TX) și PA10 (RX) sunt mapate pentru perifericul USART1, iar pinii JTAG neutilizați sunt eliberați prin apelul funcției __HAL_AFIO_REMAP_SWJ_NOJTAG(), păstrând activ doar protocolul Serial Wire Debug (SW-DP) pentru a preveni blocarea microcontrolerului.</li>
+                </ol>
+            </li>
+            <li><strong>Canale ADC:</strong> A fost activat modulul ADC1 pe canalul ADC_CHANNEL_0 (pinul PA0). Conversia este configurată pe un singur canal (Scan Mode dezactivat), în mod single-conversion (Continuous Mode dezactivat), alinierea datelor fiind la dreapta pe 12 biți (valori între 0 și 4095). Timpul de eșantionare este setat la 55.5 cicluri de ceas, iar pornirea conversiei se face prin software direct în bucla principală.</li>
+            <li><strong>Timere:</strong>Este configurat timerul de sistem SysTick, integrat în nucleul Cortex-M3, utilizat de librăria HAL pentru generarea bazei de timp de 1 ms, necesară funcțiilor HAL_Delay() (pentru animația inițială și pauza din buclă) și HAL_GetTick() (folosită în algoritmul de Peak Hold pentru măsurarea ferestrei de timp de 1000 ms). </li>
         </ul>
 
         <h3>3.3 Estimarea și analiza memoriei</h3>
